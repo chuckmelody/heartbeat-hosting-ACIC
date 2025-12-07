@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "question": "Who is the founder and chief instructor of the English Contact Karate Association (ECKA)?",
+        "options": [
+            "Ticky Donovan",
+            "Dev Barrett",
+            "Joe Lewis",
+            "Chuck Norris"
+        ],
+        "correctAnswer": "Dev Barrett",
+        "reference": "Dev Barrett, 9th Dan, founded the ECKA in 1991 and serves as its chief instructor. Source: ECKA official history."
+    },
+    {
+        "id": 2,
+        "question": "In what year was ECKA established?",
+        "options": [
+            "1985",
+            "1991",
+            "1995",
+            "2001"
+        ],
+        "correctAnswer": "1991",
+        "reference": "ECKA was founded by Dev Barrett in 1991, growing from a single club into a national association. Source: ECKA official website."
+    },
+    {
+        "id": 3,
+        "question": "ECKA is a member of which major world governing body for kickboxing?",
+        "options": [
+            "WKF (World Karate Federation)",
+            "ISKA (International Sport Karate Association)",
+            "WAKO (World Association of Kickboxing Organizations)",
+            "ITF (International Taekwon-Do Federation)"
+        ],
+        "correctAnswer": "WAKO (World Association of Kickboxing Organizations)",
+        "reference": "ECKA is the largest single association member of WAKO GB, providing a pathway for its members to compete at a world level. Source: ECKA & WAKO GB websites."
+    },
+    {
+        "id": 4,
+        "question": "What style of karate does ECKA primarily teach?",
+        "options": [
+            "Shotokan (non-contact)",
+            "Kyokushin (full-contact knockdown)",
+            "Freestyle Contact Karate",
+            "Goju-Ryu (traditional Okinawan)"
+        ],
+        "correctAnswer": "Freestyle Contact Karate",
+        "reference": "ECKA teaches a freestyle system that blends traditional karate techniques with modern contact sparring disciplines like points fighting and continuous light contact."
+    },
+    {
+        "id": 5,
+        "question": "In the ECKA Kyu grade syllabus, what is the first coloured belt a student earns after their white belt?",
+        "options": [
+            "Yellow",
+            "Orange",
+            "Red",
+            "Blue"
+        ],
+        "correctAnswer": "Red",
+        "reference": "The ECKA grading system for Kyu grades (student grades) begins with Red Belt (9th Kyu) after the initial white belt. Source: ECKA Syllabus."
+    },
+    {
+        "id": 6,
+        "question": "What does the term 'Kyu' represent in the ECKA grading system?",
+        "options": [
+            "Master level grades",
+            "Instructor qualifications",
+            "Student grades below black belt",
+            "Competition weight categories"
+        ],
+        "correctAnswer": "Student grades below black belt",
+        "reference": "Kyu grades denote the level of a student progressing towards their black belt, starting from 9th Kyu (Red) and advancing to 1st Kyu (Brown)."
+    },
+    {
+        "id": 7,
+        "question": "What does the term 'Dan' represent in the ECKA grading system?",
+        "options": [
+            "Beginner student grades",
+            "Black belt grades",
+            "Refereeing levels",
+            "First aid qualifications"
+        ],
+        "correctAnswer": "Black belt grades",
+        "reference": "Dan grades signify degrees of black belt, starting from 1st Dan (Shodan) and progressing upwards, indicating mastery and experience."
+    },
+    {
+        "id": 8,
+        "question": "Which of these is a primary competition discipline practiced in ECKA?",
+        "options": [
+            "Kata (Forms) only",
+            "Points Fighting (Semi-Contact)",
+            "Sumo Wrestling",
+            "Full-contact knockdown karate"
+        ],
+        "correctAnswer": "Points Fighting (Semi-Contact)",
+        "reference": "Points fighting is a key discipline where the fight is stopped after each clean point is scored. Continuous light contact is also a primary discipline."
+    },
+    {
+        "id": 9,
+        "question": "What is the Japanese term for 'freestyle sparring' often used in karate?",
+        "options": [
+            "Kata",
+            "Kihon",
+            "Kumite",
+            "Dojo"
+        ],
+        "correctAnswer": "Kumite",
+        "reference": "Kumite is the Japanese term for sparring. ECKA focuses on practical application through various forms of kumite."
+    },
+    {
+        "id": 10,
+        "question": "The ECKA syllabus is designed to develop students for what primary purpose?",
+        "options": [
+            "Only for traditional kata performance.",
+            "Primarily for self-defence and competition.",
+            "Only for fitness and flexibility.",
+            "For becoming a professional movie stunt person."
+        ],
+        "correctAnswer": "Primarily for self-defence and competition.",
+        "reference": "The syllabus combines traditional techniques with modern training methods to produce well-rounded martial artists competent in both self-defence and sport karate."
+    },
+    {
+        "id": 11,
+        "question": "What does WAKO, ECKA's affiliated world body, stand for?",
+        "options": [
+            "World All-styles Karate Organization",
+            "World Association of Kickboxing Organizations",
+            "Western Alliance of Karate Officials",
+            "World Aikido and Kobudo Organization"
+        ],
+        "correctAnswer": "World Association of Kickboxing Organizations",
+        "reference": "WAKO is the largest international governing body for kickboxing, recognized by the IOC (International Olympic Committee)."
+    },
+    {
+        "id": 12,
+        "question": "In points fighting, what happens immediately after a valid point is scored?",
+        "options": [
+            "The fight continues without interruption.",
+            "The referee stops the fight and restarts the competitors.",
+            "The competitor who scored the point wins the match instantly.",
+            "Both competitors must perform a kata."
+        ],
+        "correctAnswer": "The referee stops the fight and restarts the competitors.",
+        "reference": "This 'stop-start' nature is the defining characteristic of points fighting, emphasizing speed and precision over continuous brawling."
+    },
+    {
+        "id": 13,
+        "question": "What is the colour of the 1st Kyu belt in the ECKA system?",
+        "options": [
+            "Black",
+            "Green",
+            "Purple",
+            "Brown"
+        ],
+        "correctAnswer": "Brown",
+        "reference": "The Brown belt is the final student grade (1st Kyu) before a student attempts their 1st Dan black belt grading. Source: ECKA Syllabus."
+    },
+    {
+        "id": 14,
+        "question": "What is the main purpose of a 'kiai'?",
+        "options": [
+            "To distract the opponent.",
+            "To show respect to the judges.",
+            "A shout or yell to focus energy, intimidate the opponent, and demonstrate spirit.",
+            "A secret code word used between training partners."
+        ],
+        "correctAnswer": "A shout or yell to focus energy, intimidate the opponent, and demonstrate spirit.",
+        "reference": "The kiai is an essential part of karate, used during the execution of techniques to maximize power and express fighting spirit (zanshin)."
+    },
+    {
+        "id": 15,
+        "question": "Which of these is NOT a common target area in ECKA points fighting?",
+        "options": [
+            "Head (with control)",
+            "Torso (front and sides)",
+            "Legs (below the knee)",
+            "Face (with control)"
+        ],
+        "correctAnswer": "Legs (below the knee)",
+        "reference": "In points fighting, legal target areas are generally the head and torso. Kicks to the legs (low kicks) are characteristic of other disciplines like full-contact kickboxing, not points fighting."
+    },
+    {
+        "id": 16,
+        "question": "What is the Japanese term for the training hall where karate is practiced?",
+        "options": [
+            "Tatami",
+            "Sensei",
+            "Dojo",
+            "Gi"
+        ],
+        "correctAnswer": "Dojo",
+        "reference": "The dojo is the formal gathering place for students of any Japanese martial art. 'Tatami' refers to the mats, 'Sensei' to the teacher, and 'Gi' to the uniform."
+    },
+    {
+        "id": 17,
+        "question": "Dev Barrett, the founder of ECKA, holds a high Dan grade in which martial art?",
+        "options": [
+            "Judo",
+            "Karate",
+            "Aikido",
+            "Kendo"
+        ],
+        "correctAnswer": "Karate",
+        "reference": "Dev Barrett is a 9th Dan black belt in Karate, which is the foundation of the ECKA freestyle system."
+    },
+    {
+        "id": 18,
+        "question": "What is 'continuous light contact' fighting?",
+        "options": [
+            "A fight that never ends.",
+            "A discipline where competitors score points with controlled techniques without stopping the fight.",
+            "A form of sparring with no contact allowed.",
+            "A demonstration of breaking boards."
+        ],
+        "correctAnswer": "A discipline where competitors score points with controlled techniques without stopping the fight.",
+        "reference": "Unlike points fighting, continuous light contact requires fighters to score points throughout a round, with judges using clickers. It emphasizes endurance and combination striking."
+    },
+    {
+        "id": 19,
+        "question": "What is the primary function of a 'grading'?",
+        "options": [
+            "To make students pay more money.",
+            "To formally assess a student's proficiency and promote them to the next belt level.",
+            "To have a party.",
+            "To elect a new club captain."
+        ],
+        "correctAnswer": "To formally assess a student's proficiency and promote them to the next belt level.",
+        "reference": "Gradings are structured examinations where students demonstrate their knowledge of the syllabus, including kihon (basics), kata (forms), and kumite (sparring)."
+    },
+    {
+        "id": 20,
+        "question": "The 'freestyle' aspect of ECKA means it incorporates techniques from...",
+        "options": [
+            "Only Japanese karate styles.",
+            "A variety of martial arts, including boxing and other forms of kickboxing.",
+            "Only dance and gymnastics.",
+            "Only wrestling."
+        ],
+        "correctAnswer": "A variety of martial arts, including boxing and other forms of kickboxing.",
+        "reference": "Freestyle systems are known for being pragmatic, taking effective techniques from multiple sources to create a well-rounded and practical fighting system."
+    },
+    {
+        "id": 21,
+        "question": "What piece of safety equipment is mandatory for the hands in all ECKA sparring disciplines?",
+        "options": [
+            "Gardening gloves",
+            "Approved sparring gloves or mitts",
+            "Fingerless weightlifting gloves",
+            "No hand protection is needed"
+        ],
+        "correctAnswer": "Approved sparring gloves or mitts",
+        "reference": "Safety is paramount. All contact sparring requires approved protective equipment, including gloves, head guards, and foot pads, to minimize the risk of injury."
+    },
+    {
+        "id": 22,
+        "question": "What does the term 'Sensei' mean?",
+        "options": [
+            "Student",
+            "Teacher or instructor",
+            "Referee",
+            "Uniform"
+        ],
+        "correctAnswer": "Teacher or instructor",
+        "reference": "Sensei is the Japanese term of respect for a teacher, commonly used in martial arts dojos."
+    },
+    {
+        "id": 23,
+        "question": "What is the purpose of 'kata' in karate training?",
+        "options": [
+            "It is a type of meditation.",
+            "A pre-arranged sequence of movements and techniques used to practice and perfect form, balance, and power.",
+            "A warm-up exercise only.",
+            "A type of sparring."
+        ],
+        "correctAnswer": "A pre-arranged sequence of movements and techniques used to practice and perfect form, balance, and power.",
+        "reference": "Kata are the encyclopedias of a karate style, containing the core principles and techniques passed down through generations."
+    },
+    {
+        "id": 24,
+        "question": "Which of these is a key principle of sportsmanship in ECKA?",
+        "options": [
+            "Arguing with the referee if you disagree with a call.",
+            "Showing respect to your opponent, the officials, and your instructors, both in victory and defeat.",
+            "Celebrating excessively after scoring a point to intimidate your opponent.",
+            "Refusing to touch gloves before a match."
+        ],
+        "correctAnswer": "Showing respect to your opponent, the officials, and your instructors, both in victory and defeat.",
+        "reference": "Martial arts etiquette (Reigi) is fundamental. Respect for others is a core tenet of the training and competition environment."
+    },
+    {
+        "id": 25,
+        "question": "What is the Japanese term for a 'punch'?",
+        "options": [
+            "Geri",
+            "Uke",
+            "Tsuki",
+            "Dachi"
+        ],
+        "correctAnswer": "Tsuki",
+        "reference": "Tsuki (or Zuki in combination) means thrust or punch. 'Geri' is kick, 'Uke' is block, and 'Dachi' is stance."
+    },
+    {
+        "id": 26,
+        "question": "What is the Japanese term for a 'kick'?",
+        "options": [
+            "Tsuki",
+            "Geri",
+            "Uke",
+            "Dachi"
+        ],
+        "correctAnswer": "Geri",
+        "reference": "'Geri' means kick. 'Tsuki' is punch, 'Uke' is block, and 'Dachi' is stance."
+    },
+    {
+        "id": 27,
+        "question": "The ECKA National Championships provide a pathway to selection for which team?",
+        "options": [
+            "The Olympic Judo Team",
+            "The WAKO Great Britain National Team",
+            "The England National Rugby Team",
+            "The World Chess Championship"
+        ],
+        "correctAnswer": "The WAKO Great Britain National Team",
+        "reference": "Success at the ECKA Nationals is a key criterion for selection to represent Great Britain at WAKO European and World Championships."
+    },
+    {
+        "id": 28,
+        "question": "What is the significance of bowing in a dojo?",
+        "options": [
+            "It is a sign of weakness.",
+            "It is a simple stretching exercise.",
+            "It is a sign of respect for the dojo, the instructors, and fellow students.",
+            "It is a way to check if your belt is tied correctly."
+        ],
+        "correctAnswer": "It is a sign of respect for the dojo, the instructors, and fellow students.",
+        "reference": "Bowing is a fundamental part of dojo etiquette, performed when entering and leaving the dojo, and before and after training with a partner."
+    },
+    {
+        "id": 29,
+        "question": "Which of the following is a 'Dan' grade?",
+        "options": [
+            "9th Kyu",
+            "5th Kyu",
+            "1st Kyu",
+            "2nd Dan"
+        ],
+        "correctAnswer": "2nd Dan",
+        "reference": "Dan grades are black belt ranks. Kyu grades are student ranks below black belt."
+    },
+    {
+        "id": 30,
+        "question": "What is the main objective in points fighting?",
+        "options": [
+            "To knock the opponent out.",
+            "To score clean, controlled techniques on legal target areas faster than your opponent.",
+            "To perform the most acrobatic kicks.",
+            "To push the opponent out of the fighting area."
+        ],
+        "correctAnswer": "To score clean, controlled techniques on legal target areas faster than your opponent.",
+        "reference": "Points fighting rewards speed, timing, and precision. The emphasis is on 'tagging' the opponent with a clean technique and not getting hit."
+    },
+    {
+        "id": 31,
+        "question": "What does the term 'Kihon' refer to in karate training?",
+        "options": [
+            "Sparring",
+            "Forms",
+            "Basics and fundamental techniques",
+            "Meditation"
+        ],
+        "correctAnswer": "Basics and fundamental techniques",
+        "reference": "Kihon involves practicing stances, blocks, punches, and kicks as individual techniques or in simple combinations to build a strong foundation."
+    },
+    {
+        "id": 32,
+        "question": "In the ECKA syllabus, what colour belt comes after Orange?",
+        "options": [
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue"
+        ],
+        "correctAnswer": "Yellow",
+        "reference": "The standard progression is White -> Red -> Orange -> Yellow -> Green -> Blue -> Purple -> Brown. Source: ECKA Syllabus."
+    },
+    {
+        "id": 33,
+        "question": "Why is controlled contact important in ECKA sparring?",
+        "options": [
+            "It is not important; full force is always used.",
+            "To allow for safe training and competition, minimizing injuries while still being realistic.",
+            "Because the gloves are too soft to cause any harm.",
+            "It is only important for children, not adults."
+        ],
+        "correctAnswer": "To allow for safe training and competition, minimizing injuries while still being realistic.",
+        "reference": "The 'contact' in contact karate is controlled. The goal is to demonstrate an effective technique without causing injury to your training partner or opponent."
+    },
+    {
+        "id": 34,
+        "question": "What is the Japanese term for a 'block'?",
+        "options": [
+            "Uke",
+            "Geri",
+            "Tsuki",
+            "Dachi"
+        ],
+        "correctAnswer": "Uke",
+        "reference": "'Uke' means to receive, or block. 'Geri' is kick, 'Tsuki' is punch, and 'Dachi' is stance."
+    },
+    {
+        "id": 35,
+        "question": "What is the role of a referee in a karate competition?",
+        "options": [
+            "To coach one of the fighters.",
+            "To ensure the fight is conducted safely and according to the rules, and to award points.",
+            "To sell tickets at the door.",
+            "To provide medical assistance."
+        ],
+        "correctAnswer": "To ensure the fight is conducted safely and according to the rules, and to award points.",
+        "reference": "The referee (and corner judges) are impartial officials responsible for enforcing the rules of the competition."
+    },
+    {
+        "id": 36,
+        "question": "Which of these is a common stance in karate?",
+        "options": [
+            "Handstand",
+            "Zenkutsu-dachi (Front Stance)",
+            "One-legged stance",
+            "Sitting stance"
+        ],
+        "correctAnswer": "Zenkutsu-dachi (Front Stance)",
+        "reference": "Zenkutsu-dachi is a fundamental long, forward stance used for generating power in punches and blocks."
+    },
+    {
+        "id": 37,
+        "question": "What is the benefit of being affiliated with WAKO?",
+        "options": [
+            "It provides free uniforms for all members.",
+            "It offers a pathway to compete in IOC-recognised international kickboxing events.",
+            "It has no benefits.",
+            "It guarantees a place in the Olympic Games."
+        ],
+        "correctAnswer": "It offers a pathway to compete in IOC-recognised international kickboxing events.",
+        "reference": "WAKO's recognition by the International Olympic Committee (IOC) gives legitimacy to the sport and provides the highest level of competition for athletes."
+    },
+    {
+        "id": 38,
+        "question": "What does 'ECKA' stand for?",
+        "options": [
+            "European Combat Karate Association",
+            "English Creative Karate Alliance",
+            "English Contact Karate Association",
+            "Eastern Counties Karate Academy"
+        ],
+        "correctAnswer": "English Contact Karate Association",
+        "reference": "This is the full name of the association founded by Dev Barrett in 1991."
+    },
+    {
+        "id": 39,
+        "question": "What is the purpose of wearing a 'Gi' (uniform)?",
+        "options": [
+            "It is purely for fashion.",
+            "It promotes uniformity, discipline, and is designed to withstand the rigours of training.",
+            "It is designed to be as restrictive as possible.",
+            "It is optional for all classes."
+        ],
+        "correctAnswer": "It promotes uniformity, discipline, and is designed to withstand the rigours of training.",
+        "reference": "The gi removes indicators of social status, promoting equality in the dojo, and is made of durable material suitable for grabbing and throwing techniques."
+    },
+    {
+        "id": 40,
+        "question": "What is the highest grade Dev Barrett holds?",
+        "options": [
+            "5th Dan",
+            "7th Dan",
+            "9th Dan",
+            "12th Dan"
+        ],
+        "correctAnswer": "9th Dan",
+        "reference": "Dev Barrett is a 9th Dan Black Belt, one of the highest-ranking instructors in the country. Source: ECKA official website."
+    }
+]

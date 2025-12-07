@@ -1,0 +1,23 @@
+# Node modules & debug logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Build / cache outputs
+dist/
+build/
+.cache/
+coverage/
+
+# Local environment & certificates
+.env
+.env.*
+!.env.example
+cert.pem
+key.pem
+
+# OS junk
+.DS_Store
+Thumbs.db

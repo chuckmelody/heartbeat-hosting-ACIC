@@ -1,0 +1,214 @@
+.content-card {
+    padding: 2rem;
+    text-align: left;
+    background: var(--hb-surface-bg);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid var(--hb-surface-border);
+    border-radius: var(--hb-card-radius);
+    box-shadow:
+        inset -3px -3px 9px var(--hb-shadow-light),
+        inset 6px 8px 20px var(--hb-shadow-dark),
+        0 25px 55px rgba(0, 0, 0, 0.35);
+    color: var(--primary-text-color);
+    position: relative;
+}
+
+.content-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.content-card p {
+    color: var(--secondary-text-color);
+    /* font-size: 1rem; Reduced font size for better readability */
+    margin-bottom: 1rem;
+    line-height: 1.7; /* Improved line spacing */
+}
+
+.product-detail-info .product-price {
+    font-size: 1.5rem;
+}
+
+.content-card .content-subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: var(--primary-text-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.content-card ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+    line-height: 1.8;
+}
+
+/* --- Ad Card --- */
+.ad-card {
+    position: relative;
+    border-radius: var(--hb-card-radius);
+    overflow: hidden;
+    border: 1px solid rgba(44, 44, 44, 0.8);
+    background-image: url('/static/img/junior1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-text-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.ad-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(18, 18, 18, 0.95) 30%, rgba(18, 18, 18, 0.4) 100%);
+    z-index: 1;
+}
+
+.ad-card-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* --- Link Tree Card --- */
+.link-tree-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.link-tree-links a {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.link-tree-links a:first-child {
+    padding-top: 0;
+}
+
+.link-tree-links a:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.content-card ol {
+    list-style-position: inside;
+    padding-left: 1rem;
+    line-height: 1.8;
+}
+
+/* Team Card Styles - Moved here for sharing */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--hb-card-radius);
+    padding: 1.5rem;
+    background-color: rgba(42, 42, 42, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.team-card-actions {
+    margin-top: auto; /* Pushes this div to the bottom */
+    text-align: right; /* Aligns button to the right */
+}
+
+.card-action-button {
+    display: inline-flex; /* Use inline-flex to align icon and text */
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem; /* Smaller padding */
+    font-size: 0.9rem; /* Smaller font size */
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.card-action-button:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.team-member-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.team-member-card .title {
+    font-style: italic;
+    color: var(--secondary-text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.team-member-card ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.team-member-card ul li {
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23E53935" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>') no-repeat left center;
+    padding-left: 28px;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+}
+
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    }
+
+    
+.icon-action-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--hb-button-radius);
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid var(--border-color);
+    color: var(--primary-text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s, color 0.2s;
+    text-decoration: none; /* For the <a> tag */
+}
+
+.icon-action-btn:hover {
+    background-color: var(--accent-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+
+
+    

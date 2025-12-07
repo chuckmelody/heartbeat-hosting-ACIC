@@ -1,0 +1,963 @@
+[
+    {
+        "id": 1,
+        "question": "What does WAKO stand for?",
+        "options": [
+            "World All-styles Karate Organization",
+            "World Association of Kickboxing Organizations",
+            "World Alliance of Karate Officials",
+            "Western Association of Kickboxing Outreach"
+        ],
+        "correctAnswer": "World Association of Kickboxing Organizations",
+        "reference": "WAKO is the official name of the largest international governing body for the sport of kickboxing. Source: WAKO Official Statutes."
+    },
+    {
+        "id": 2,
+        "question": "In WAKO Points Fighting, what is the score for a clean punch to the body?",
+        "options": [
+            "0 points",
+            "1 point",
+            "2 points",
+            "3 points"
+        ],
+        "correctAnswer": "1 point",
+        "reference": "All hand techniques, kicks to the body, and sweeps are awarded 1 point. Source: WAKO Ring Sports & Tatami Sports Rules."
+    },
+    {
+        "id": 3,
+        "question": "In WAKO Points Fighting, what is the score for a clean kick to the head?",
+        "options": [
+            "1 point",
+            "2 points",
+            "3 points",
+            "4 points"
+        ],
+        "correctAnswer": "2 points",
+        "reference": "A controlled kick delivered to the head is awarded 2 points. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 4,
+        "question": "What is the score for a jump kick to the head in WAKO Points Fighting?",
+        "options": [
+            "1 point",
+            "2 points",
+            "3 points",
+            "It is an illegal technique."
+        ],
+        "correctAnswer": "3 points",
+        "reference": "A kick to the head where the competitor has clearly jumped off the floor with both feet is awarded 3 points. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 5,
+        "question": "Which of the following is an illegal target area in both Points Fighting and Light Contact?",
+        "options": [
+            "Front of the head",
+            "Side of the torso",
+            "The back",
+            "Front of the torso"
+        ],
+        "correctAnswer": "The back",
+        "reference": "Attacking the back, joints, groin, or below the belt is strictly forbidden in all WAKO tatami disciplines. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 6,
+        "question": "What is the fundamental difference between Points Fighting and Light Contact?",
+        "options": [
+            "Head kicks are not allowed in Light Contact.",
+            "Points Fighting is continuous, while Light Contact stops after each point.",
+            "Points Fighting stops after each point, while Light Contact is continuous.",
+            "Gloves are not worn in Points Fighting."
+        ],
+        "correctAnswer": "Points Fighting stops after each point, while Light Contact is continuous.",
+        "reference": "Points Fighting is a 'stop-start' discipline. Light Contact involves continuous scoring throughout the round, judged by clickers. Source: WAKO Rules."
+    },
+    {
+        "id": 7,
+        "question": "In WAKO competitions, what is the standard weight for gloves used by adult competitors in Points Fighting and Light Contact?",
+        "options": [
+            "8 oz",
+            "10 oz",
+            "12 oz",
+            "16 oz"
+        ],
+        "correctAnswer": "10 oz",
+        "reference": "10 oz gloves are mandatory for all adult competitors in WAKO tatami sports to ensure safety and controlled contact. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 8,
+        "question": "What happens if a fighter in Light Contact executes a kick and their opponent catches the leg?",
+        "options": [
+            "The fighter who caught the leg is awarded a point.",
+            "The fight continues without interruption.",
+            "The referee must stop the fight and issue a warning for holding.",
+            "The fighter can hold the leg for up to 5 seconds to attempt a sweep."
+        ],
+        "correctAnswer": "The referee must stop the fight and issue a warning for holding.",
+        "reference": "Catching and holding a leg is considered a form of clinching and is illegal. The referee will call 'Stop' and issue a warning. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 9,
+        "question": "What is the term for a fighter intentionally leaving the fighting area (tatami) to avoid fighting?",
+        "options": [
+            "A tactical retreat",
+            "Running away or passivity",
+            "A strategic reset",
+            "A legal defensive move"
+        ],
+        "correctAnswer": "Running away or passivity",
+        "reference": "A fighter who constantly steps or runs out of the fighting area will be penalized for passivity. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 10,
+        "question": "How many warnings does a fighter receive before a minus point is officially deducted by the centre referee?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "3",
+        "reference": "The progression of penalties is: first official warning, second official warning, third official warning which results in a minus point (-1). A fourth warning leads to disqualification. Source: WAKO Rules."
+    },
+    {
+        "id": 11,
+        "question": "Which piece of protective equipment is mandatory for all male competitors in all WAKO disciplines?",
+        "options": [
+            "Shin guards",
+            "Chest protector",
+            "Groin guard",
+            "Elbow pads"
+        ],
+        "correctAnswer": "Groin guard",
+        "reference": "A groin guard is mandatory for all male competitors. A chest protector is mandatory for all female competitors in younger age categories. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 12,
+        "question": "In Points Fighting, if two fighters score a valid point at the exact same time, what is the referee's decision?",
+        "options": [
+            "The heavier fighter gets the point.",
+            "The point is awarded to the fighter who shouted 'kiai' louder.",
+            "No point is awarded to either fighter ('clash' or 'no score').",
+            "Both fighters are awarded a point."
+        ],
+        "correctAnswer": "No point is awarded to either fighter ('clash' or 'no score').",
+        "reference": "If both fighters score simultaneously, the centre referee will cross their arms to indicate no score and restart the fight. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 13,
+        "question": "What is the maximum number of minus points a fighter can receive before being disqualified?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "3",
+        "reference": "A fighter who receives a third minus point in a match is automatically disqualified. This is equivalent to receiving a fourth official warning overall. Source: WAKO Rules."
+    },
+    {
+        "id": 14,
+        "question": "Is it legal to kick with the shin in WAKO Light Contact?",
+        "options": [
+            "Yes, it is a primary technique.",
+            "No, only the instep and foot are permitted for kicking.",
+            "Only if the opponent is wearing shin guards.",
+            "Only for kicks to the body, not the head."
+        ],
+        "correctAnswer": "No, only the instep and foot are permitted for kicking.",
+        "reference": "Contact with the shin, knee, or elbow is considered a foul. All kicks must be delivered with the foot. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 15,
+        "question": "What is the primary role of the two side judges in Points Fighting?",
+        "options": [
+            "To operate the scoreboard.",
+            "To confirm or deny the point awarded by the centre referee.",
+            "To provide water to the fighters.",
+            "To coach the fighters from the side."
+        ],
+        "correctAnswer": "To confirm or deny the point awarded by the centre referee.",
+        "reference": "For a point to be valid, at least two of the three judges (the centre referee and two side judges) must agree on the point. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 16,
+        "question": "What does the referee's command 'FIGHT' signify?",
+        "options": [
+            "The round is over.",
+            "The start or continuation of the fight.",
+            "A warning is about to be issued.",
+            "The fighters should touch gloves."
+        ],
+        "correctAnswer": "The start or continuation of the fight.",
+        "reference": "This is the standard command used by the referee to begin or resume action. Source: WAKO Referee Hand Signals and Commands."
+    },
+    {
+        "id": 17,
+        "question": "What does the referee's command 'STOP' signify?",
+        "options": [
+            "A point has been scored (in Light Contact).",
+            "The fight should pause for any reason (foul, end of round, point scored in Points Fighting).",
+            "The fighters should increase their intensity.",
+            "The fight is about to begin."
+        ],
+        "correctAnswer": "The fight should pause for any reason (foul, end of round, point scored in Points Fighting).",
+        "reference": "This is the standard command to halt the action. The referee will then give another command or signal. Source: WAKO Referee Hand Signals and Commands."
+    },
+    {
+        "id": 18,
+        "question": "Which international organization has officially recognized WAKO?",
+        "options": [
+            "FIFA (Fédération Internationale de Football Association)",
+            "The United Nations (UN)",
+            "The International Olympic Committee (IOC)",
+            "The World Health Organization (WHO)"
+        ],
+        "correctAnswer": "The International Olympic Committee (IOC)",
+        "reference": "WAKO gained full recognition from the IOC in 2021, a major milestone for the sport of kickboxing. Source: WAKO official announcements."
+    },
+    {
+        "id": 19,
+        "question": "In Light Contact, what is the consequence of 'excessive contact'?",
+        "options": [
+            "A bonus point is awarded to the fighter who used it.",
+            "The fight continues as normal.",
+            "An official warning, followed by a minus point if repeated.",
+            "The fighter is praised for their power."
+        ],
+        "correctAnswer": "An official warning, followed by a minus point if repeated.",
+        "reference": "Light Contact requires techniques to be controlled. Any technique deemed too powerful or intended to harm is a foul and will be penalized. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 20,
+        "question": "What is a 'sweep' in WAKO tatami sports?",
+        "options": [
+            "A type of high kick.",
+            "A technique to take an opponent to the floor using the foot to attack their standing leg.",
+            "Wiping sweat from your brow.",
+            "A technique that is illegal in all disciplines."
+        ],
+        "correctAnswer": "A technique to take an opponent to the floor using the foot to attack their standing leg.",
+        "reference": "A successful sweep (where the opponent is downed) is awarded 1 point, provided the sweeping fighter remains on their feet. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 21,
+        "question": "What must a fighter do immediately after executing a successful sweep?",
+        "options": [
+            "Help their opponent up.",
+            "Execute a follow-up technique on the downed opponent.",
+            "Remain standing to be awarded the point.",
+            "Bow to the referee."
+        ],
+        "correctAnswer": "Remain standing to be awarded the point.",
+        "reference": "To be awarded a point for a sweep, the sweeping fighter must not fall to the floor themselves. Attacking a downed opponent is illegal. Source: WAKO Rules."
+    },
+    {
+        "id": 22,
+        "question": "What is the standard size of the WAKO fighting area (tatami)?",
+        "options": [
+            "6m x 6m",
+            "8m x 8m",
+            "10m x 10m",
+            "12m x 12m"
+        ],
+        "correctAnswer": "8m x 8m",
+        "reference": "The fighting area is an 8x8 meter square. There is often a 1-meter safety area around it. Source: WAKO Rules."
+    },
+    {
+        "id": 23,
+        "question": "In Points Fighting, what is the 'ten-point rule' or 'mercy rule'?",
+        "options": [
+            "The first fighter to score 10 points wins.",
+            "If a fighter establishes a 10-point lead, the fight is stopped and they are declared the winner.",
+            "If a fighter scores 10 points, they must switch to their weaker stance.",
+            "There is no such rule."
+        ],
+        "correctAnswer": "If a fighter establishes a 10-point lead, the fight is stopped and they are declared the winner.",
+        "reference": "This rule, also known as the 'superiority rule', is used to end one-sided matches quickly. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 24,
+        "question": "Which of these is NOT a mandatory piece of protective equipment for the head?",
+        "options": [
+            "Head guard",
+            "Mouth guard",
+            "Face shield or visor",
+            "All of the above are mandatory"
+        ],
+        "correctAnswer": "Face shield or visor",
+        "reference": "A head guard and mouth guard are mandatory. A full face shield is optional and may be worn, but is not a requirement. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 25,
+        "question": "What is the penalty for turning your back on an opponent during a fight?",
+        "options": [
+            "No penalty, it is a valid defensive move.",
+            "An immediate minus point.",
+            "An official warning for unsportsmanlike conduct or passivity.",
+            "The round is immediately ended."
+        ],
+        "correctAnswer": "An official warning for unsportsmanlike conduct or passivity.",
+        "reference": "Intentionally turning away from an opponent is considered a foul as you are no longer able to intelligently defend yourself. Source: WAKO Rules."
+    },
+    {
+        "id": 26,
+        "question": "In Light Contact, how do the side judges score points?",
+        "options": [
+            "They shout out the score after each technique.",
+            "They use electronic clickers to count the points for each fighter throughout the round.",
+            "They write the score down on paper at the end of the match.",
+            "They only vote on who they think won the round overall."
+        ],
+        "correctAnswer": "They use electronic clickers to count the points for each fighter throughout the round.",
+        "reference": "Side judges use clickers to register every valid point. The final score is determined by these counts. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 27,
+        "question": "What is the minimum number of judges required for a WAKO tatami fight?",
+        "options": [
+            "1 (the centre referee)",
+            "2 (a referee and one side judge)",
+            "3 (a centre referee and two side judges)",
+            "5 (a centre referee and four side judges)"
+        ],
+        "correctAnswer": "3 (a centre referee and two side judges)",
+        "reference": "The standard officiating team for tatami sports consists of one centre referee and two side judges. Source: WAKO Rules."
+    },
+    {
+        "id": 28,
+        "question": "Can a fighter wear jewelry or piercings during a WAKO competition?",
+        "options": [
+            "Yes, if it is covered with tape.",
+            "No, all jewelry, piercings, and hard objects must be removed.",
+            "Only necklaces are allowed.",
+            "Only if the opponent agrees."
+        ],
+        "correctAnswer": "No, all jewelry, piercings, and hard objects must be removed.",
+        "reference": "This is a strict safety rule to prevent injury to both the wearer and their opponent. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 29,
+        "question": "What happens if a fighter is accidentally injured and cannot continue?",
+        "options": [
+            "They automatically lose the fight.",
+            "The fight is declared a draw.",
+            "The judges decide a winner based on the scores up to that point, if a certain amount of time has passed.",
+            "The fight is rescheduled for the next day."
+        ],
+        "correctAnswer": "The judges decide a winner based on the scores up to that point, if a certain amount of time has passed.",
+        "reference": "If a fighter cannot continue due to an accidental injury, and the fight has passed a certain threshold (e.g., the end of the first round), the winner is decided on the scorecards. This is often called a 'technical decision'."
+    },
+    {
+        "id": 30,
+        "question": "What is the purpose of the 'medical check' before a competition?",
+        "options": [
+            "To ensure fighters have paid their entry fees.",
+            "To ensure fighters are fit to compete and have no conditions that would endanger themselves or others.",
+            "To check the fighter's weight.",
+            "To take a team photo."
+        ],
+        "correctAnswer": "To ensure fighters are fit to compete and have no conditions that would endanger themselves or others.",
+        "reference": "The pre-fight medical check is a mandatory safety procedure to confirm the health and fitness of all competitors. Source: WAKO Medical Rules."
+    },
+    {
+        "id": 31,
+        "question": "In Points Fighting, what is the call if a fighter scores a point while they have one foot out of the fighting area?",
+        "options": [
+            "The point is valid.",
+            "The point is not valid, and the fighter receives a warning for being out of bounds.",
+            "The point is valid, but worth one less than normal.",
+            "The fight is stopped and the opponent is awarded a point."
+        ],
+        "correctAnswer": "The point is not valid, and the fighter receives a warning for being out of bounds.",
+        "reference": "Both feet must be inside the fighting area at the moment a technique is scored for it to be considered valid. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 32,
+        "question": "What does the term 'Tatami Sports' refer to in WAKO?",
+        "options": [
+            "All disciplines that take place in a boxing ring.",
+            "Disciplines such as Points Fighting, Light Contact, and Forms that take place on a matted area.",
+            "Only musical forms and creative weapons.",
+            "The administrative side of WAKO."
+        ],
+        "correctAnswer": "Disciplines such as Points Fighting, Light Contact, and Forms that take place on a matted area.",
+        "reference": "WAKO is divided into 'Tatami Sports' and 'Ring Sports' (like Full Contact and K1). The tatami is the matted fighting area."
+    },
+    {
+        "id": 33,
+        "question": "Is a spinning back-fist to the head a legal technique in Light Contact?",
+        "options": [
+            "No, spinning techniques are forbidden.",
+            "Yes, provided it is delivered with controlled power and not with the elbow or forearm.",
+            "Only if the fighter announces they are about to perform it.",
+            "Yes, and it is worth 3 points."
+        ],
+        "correctAnswer": "Yes, provided it is delivered with controlled power and not with the elbow or forearm.",
+        "reference": "Spinning and jumping techniques are allowed in both Points Fighting and Light Contact, but they must be executed with control. Source: WAKO Rules."
+    },
+    {
+        "id": 34,
+        "question": "What is the coach's role during a fight?",
+        "options": [
+            "To argue with the referee.",
+            "To shout instructions and encouragement from their designated coach's box.",
+            "To step onto the tatami to give advice.",
+            "To film the fight on their phone."
+        ],
+        "correctAnswer": "To shout instructions and encouragement from their designated coach's box.",
+        "reference": "Coaches must remain in the designated area and behave professionally. They can be penalized or removed for misconduct. Source: WAKO Code of Ethics."
+    },
+    {
+        "id": 35,
+        "question": "What is the primary purpose of foot pads in WAKO tatami sports?",
+        "options": [
+            "To make kicks more powerful.",
+            "To protect the kicker's foot and the opponent from injury from toes and hard parts of the foot.",
+            "To keep the fighter's feet warm.",
+            "They are for fashion and are optional."
+        ],
+        "correctAnswer": "To protect the kicker's foot and the opponent from injury from toes and hard parts of the foot.",
+        "reference": "Foot pads are mandatory safety equipment designed to cover the instep and toes. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 36,
+        "question": "If a fighter loses their mouth guard during the fight, what should the referee do?",
+        "options": [
+            "Ignore it and let the fight continue.",
+            "Stop the fight, send the fighter to their corner to rinse and replace it, and issue a warning.",
+            "Award a point to the opponent.",
+            "Disqualify the fighter immediately."
+        ],
+        "correctAnswer": "Stop the fight, send the fighter to their corner to rinse and replace it, and issue a warning.",
+        "reference": "Losing the mouth guard (spitting it out) is considered a foul. The referee must stop the action to allow it to be replaced safely. Source: WAKO Rules."
+    },
+    {
+        "id": 37,
+        "question": "What is the 'open palm' rule for gloves in Points Fighting?",
+        "options": [
+            "Fighters must use open-palm strikes instead of punches.",
+            "Gloves must be of a design that allows the palm to be open for parrying.",
+            "Fighters must show the referee their open palms before the fight.",
+            "There is no such rule."
+        ],
+        "correctAnswer": "Gloves must be of a design that allows the palm to be open for parrying.",
+        "reference": "Points Fighting gloves are typically of an 'open palm' design to facilitate defensive blocking and parrying, distinguishing them from boxing-style gloves. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 38,
+        "question": "In Light Contact, if the scores are tied at the end of the match, what happens?",
+        "options": [
+            "The lighter fighter wins.",
+            "The fight is declared a draw.",
+            "An extra round is fought to determine the winner.",
+            "The winner is decided by a coin toss."
+        ],
+        "correctAnswer": "An extra round is fought to determine the winner.",
+        "reference": "In elimination tournaments, a winner must be decided. If the scores are level, an additional round is fought. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 39,
+        "question": "Which of these actions would be considered 'unsportsmanlike conduct'?",
+        "options": [
+            "Touching gloves with your opponent before the fight.",
+            "Bowing to the officials.",
+            "Shouting aggressively at or taunting your opponent after the referee has called 'Stop'.",
+            "Helping an opponent who has fallen over."
+        ],
+        "correctAnswer": "Shouting aggressively at or taunting your opponent after the referee has called 'Stop'.",
+        "reference": "Any disrespectful or aggressive behaviour towards opponents, officials, or coaches is a foul and will be penalized. Source: WAKO Code of Ethics."
+    },
+    {
+        "id": 40,
+        "question": "What is the minimum age for a competitor to enter a senior WAKO competition?",
+        "options": [
+            "16",
+            "18",
+            "21",
+            "There is no minimum age."
+        ],
+        "correctAnswer": "18",
+        "reference": "The senior category is typically for competitors aged 18-40. There are separate categories for 'Older Cadets' and 'Juniors' for younger competitors. Source: WAKO Rules."
+    }
+,
+    {
+        "id": 41,
+        "question": "What is the referee's hand signal for an official warning?",
+        "options": [
+            "They show a yellow card.",
+            "They cross their arms in front of their chest.",
+            "They point their index finger at the offending fighter.",
+            "They raise both hands above their head."
+        ],
+        "correctAnswer": "They point their index finger at the offending fighter.",
+        "reference": "The referee points at the fighter, announces the foul, and then points at them again to signify the official warning. Source: WAKO Referee Manual."
+    },
+    {
+        "id": 42,
+        "question": "In Points Fighting, if a fighter scores a point but falls to the floor as a result of their own technique (not a foul), is the point valid?",
+        "options": [
+            "Yes, the point is always valid.",
+            "No, the point is not valid as the fighter did not maintain balance.",
+            "Yes, but it is only worth half a point.",
+            "The opponent is awarded a point instead."
+        ],
+        "correctAnswer": "No, the point is not valid as the fighter did not maintain balance.",
+        "reference": "A fighter must remain on their feet and in control after scoring for a point to be awarded. This is known as 'zanshin' or awareness. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 43,
+        "question": "What is the standard duration of a round for senior competitors in WAKO Points Fighting?",
+        "options": [
+            "1 minute",
+            "2 minutes",
+            "3 minutes",
+            "5 minutes"
+        ],
+        "correctAnswer": "2 minutes",
+        "reference": "Standard rounds for senior tatami sports (Points Fighting and Light Contact) are typically 2 minutes long. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 44,
+        "question": "Is a 'hook kick' (ura mawashi geri) to the head a legal technique?",
+        "options": [
+            "No, only front kicks are allowed.",
+            "Yes, it is a legal technique and scores 2 points if it lands cleanly.",
+            "Yes, but only in Light Contact, not Points Fighting.",
+            "No, because it involves turning your back."
+        ],
+        "correctAnswer": "Yes, it is a legal technique and scores 2 points if it lands cleanly.",
+        "reference": "All conventional karate/kickboxing kicks are legal, provided they are delivered with controlled contact to a legal target area. Source: WAKO Rules."
+    },
+    {
+        "id": 45,
+        "question": "What is the official command a referee gives to call the fighters to the center to begin the match?",
+        "options": [
+            "\"Begin\"",
+            "\"Start\"",
+            "\"Shake hands\"",
+            "\"Center\""
+        ],
+        "correctAnswer": "\"Shake hands\"",
+        "reference": "The referee calls the fighters to the center, instructs them to 'shake hands', then to return to their starting lines before commanding 'Fight'. Source: WAKO Referee Manual."
+    },
+    {
+        "id": 46,
+        "question": "A fighter receives a minus point. How is this reflected on the scoreboard in Points Fighting?",
+        "options": [
+            "One of their scored points is removed.",
+            "The opponent is awarded an extra point.",
+            "It is just noted by the judges and has no score effect.",
+            "The fight is immediately stopped."
+        ],
+        "correctAnswer": "The opponent is awarded an extra point.",
+        "reference": "In Points Fighting, a minus point results in an additional point being awarded to the opponent. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 47,
+        "question": "Can a coach protest a referee's decision during a match?",
+        "options": [
+            "Yes, by stepping onto the tatami and stopping the fight.",
+            "No, the referee's decision is final and cannot be protested.",
+            "Yes, but only through a formal protest procedure immediately after the match, not by interrupting it.",
+            "Yes, by shouting at the side judges."
+        ],
+        "correctAnswer": "Yes, but only through a formal protest procedure immediately after the match, not by interrupting it.",
+        "reference": "Coaches can file an official protest with the chief referee or tournament director, usually with a fee. They cannot interrupt the fight itself. Source: WAKO Rules."
+    },
+    {
+        "id": 48,
+        "question": "What is the age range for the 'Juniors' category in WAKO competitions?",
+        "options": [
+            "10-12 years old",
+            "13-15 years old",
+            "16-18 years old",
+            "19-21 years old"
+        ],
+        "correctAnswer": "16-18 years old",
+        "reference": "The typical age divisions are Children, Younger Cadets, Older Cadets (13-15), Juniors (16-18), and Seniors (18+). Source: WAKO Rules."
+    },
+    {
+        "id": 49,
+        "question": "Are axe kicks (kakato geri) legal in WAKO tatami sports?",
+        "options": [
+            "Yes, to the head or body.",
+            "No, they are considered too dangerous.",
+            "Only to the body.",
+            "Only if performed with the heel."
+        ],
+        "correctAnswer": "Yes, to the head or body.",
+        "reference": "Axe kicks are legal techniques, but like all techniques, they must be delivered with controlled power to avoid penalty for excessive contact. Source: WAKO Rules."
+    },
+    {
+        "id": 50,
+        "question": "What is the referee's signal for 'stop time'?",
+        "options": [
+            "They tap their watch.",
+            "They form a 'T' shape with their hands.",
+            "They shout 'Timeout!'.",
+            "They turn their back to the timekeeper."
+        ],
+        "correctAnswer": "They form a 'T' shape with their hands.",
+        "reference": "The referee forms a 'T' with their hands towards the timekeeper to indicate that the official match clock should be stopped. Source: WAKO Referee Manual."
+    },
+    {
+        "id": 51,
+        "question": "In Light Contact, what happens if a fighter is knocked down by a legal blow and cannot continue after a 10-count?",
+        "options": [
+            "The fight is a draw.",
+            "The opponent wins by TKO (Technical Knockout).",
+            "The round is re-fought.",
+            "The injured fighter is given 5 minutes to recover."
+        ],
+        "correctAnswer": "The opponent wins by TKO (Technical Knockout).",
+        "reference": "Even in Light Contact, if a legal, controlled technique results in a fighter being unable to continue, it is ruled a TKO. This is rare but possible. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 52,
+        "question": "What is the minimum number of kicks a fighter must perform in a round of Light Contact?",
+        "options": [
+            "6",
+            "4",
+            "2",
+            "There is no minimum kick rule."
+        ],
+        "correctAnswer": "There is no minimum kick rule.",
+        "reference": "The 'minimum kick rule' (e.g., 6 kicks per round) applies to WAKO Ring Sports like Full Contact and K1, but not to Tatami Sports like Light Contact or Points Fighting."
+    },
+    {
+        "id": 53,
+        "question": "Can a fighter wear glasses or contact lenses during a fight?",
+        "options": [
+            "Yes, both are allowed.",
+            "No, neither are allowed.",
+            "Only soft contact lenses are permitted; glasses are forbidden.",
+            "Only prescription sports goggles are allowed."
+        ],
+        "correctAnswer": "Only soft contact lenses are permitted; glasses are forbidden.",
+        "reference": "For safety reasons, hard objects like glasses are not allowed. Soft contact lenses are permitted at the fighter's own risk. Source: WAKO Medical Rules."
+    },
+    {
+        "id": 54,
+        "question": "What is the penalty for a fighter who is not ready to fight when called by the referee?",
+        "options": [
+            "They are given extra time to prepare.",
+            "The fight starts without them.",
+            "They may be warned and eventually disqualified.",
+            "Their opponent gets a 2-point head start."
+        ],
+        "correctAnswer": "They may be warned and eventually disqualified.",
+        "reference": "Delaying the start of a fight is a foul. A fighter can be penalized and ultimately disqualified if they are not ready to compete in a timely manner. Source: WAKO Rules."
+    },
+    {
+        "id": 55,
+        "question": "In Points Fighting, what is the call if a fighter scores a clean kick to the body but the referee does not see it?",
+        "options": [
+            "The point is automatically awarded if the crowd cheers.",
+            "The fighter's coach can award the point.",
+            "If the two side judges both signal for the point, they can overrule the referee and award it.",
+            "No point is awarded."
+        ],
+        "correctAnswer": "If the two side judges both signal for the point, they can overrule the referee and award it.",
+        "reference": "A majority decision is required. If both side judges see and signal a valid point, it is awarded even if the centre referee missed it. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 56,
+        "question": "Is it legal to strike an opponent who is on the floor?",
+        "options": [
+            "Yes, for up to 3 seconds.",
+            "No, attacking a downed opponent is a serious foul.",
+            "Yes, but only with hand techniques.",
+            "Only if the opponent fell from a legal sweep."
+        ],
+        "correctAnswer": "No, attacking a downed opponent is a serious foul.",
+        "reference": "Once any part of a fighter's body other than their feet touches the mat, they are considered 'down' and cannot be attacked. This is a critical safety rule."
+    },
+    {
+        "id": 57,
+        "question": "What is the correct term for the matted area where a WAKO tatami sport fight takes place?",
+        "options": [
+            "The Ring",
+            "The Octagon",
+            "The Tatami",
+            "The Dojo"
+        ],
+        "correctAnswer": "The Tatami",
+        "reference": "WAKO disciplines are split into 'Ring Sports' and 'Tatami Sports'. The tatami is the square, matted fighting area."
+    },
+    {
+        "id": 58,
+        "question": "What is the penalty for faking an injury or exaggerating the effect of a blow?",
+        "options": [
+            "The fighter is given an award for acting.",
+            "The referee can issue a warning or minus point for unsportsmanlike conduct.",
+            "The fight is stopped and declared a draw.",
+            "The opponent is immediately disqualified."
+        ],
+        "correctAnswer": "The referee can issue a warning or minus point for unsportsmanlike conduct.",
+        "reference": "Faking or malingering is a serious foul. The referee and doctor will assess the situation, and if it's deemed fake, the fighter will be penalized. Source: WAKO Rules."
+    },
+    {
+        "id": 59,
+        "question": "What colour uniform (gi or suit) must a competitor wear?",
+        "options": [
+            "Any colour is allowed.",
+            "Only black or white.",
+            "The uniform must be clean and predominantly white, or follow the team/club colours if approved.",
+            "The uniform must match the colour of their gloves."
+        ],
+        "correctAnswer": "The uniform must be clean and predominantly white, or follow the team/club colours if approved.",
+        "reference": "WAKO rules specify uniform requirements to ensure a professional appearance. T-shirts are worn under the jacket. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 60,
+        "question": "What is the referee's signal to deduct a minus point?",
+        "options": [
+            "They show a red card.",
+            "They point at the fighter, then point downwards at a 45-degree angle.",
+            "They tap the fighter on the head.",
+            "They announce it loudly without a signal."
+        ],
+        "correctAnswer": "They point at the fighter, then point downwards at a 45-degree angle.",
+        "reference": "After issuing the third official warning, the referee signals the minus point by pointing down, and informs the scorekeeper. Source: WAKO Referee Manual."
+    },
+    {
+        "id": 61,
+        "question": "Are 'blind' techniques, such as a spinning back-fist thrown without looking, legal?",
+        "options": [
+            "Yes, if they land.",
+            "No, all techniques must be delivered with control and awareness.",
+            "Yes, they are encouraged to show creativity.",
+            "Only in the last 10 seconds of a round."
+        ],
+        "correctAnswer": "No, all techniques must be delivered with control and awareness.",
+        "reference": "Throwing techniques without looking at the target is dangerous and considered a foul, as it demonstrates a lack of control. Source: WAKO Rules."
+    },
+    {
+        "id": 62,
+        "question": "In Light Contact, what is the primary criterion for scoring a point?",
+        "options": [
+            "The power of the technique.",
+            "A legal technique delivered with light, controlled contact to a legal target area.",
+            "The noise the technique makes on impact.",
+            "The style and look of the technique."
+        ],
+        "correctAnswer": "A legal technique delivered with light, controlled contact to a legal target area.",
+        "reference": "Light Contact judging focuses on the 'touch'. The technique must be clean and controlled, not powerful. Speed and technique are valued over force."
+    },
+    {
+        "id": 63,
+        "question": "What is the maximum number of coaches allowed in a fighter's corner?",
+        "options": [
+            "One coach inside the fighting area, one outside.",
+            "One coach and one second (assistant).",
+            "As many as the fighter wants.",
+            "Three coaches are allowed."
+        ],
+        "correctAnswer": "One coach and one second (assistant).",
+        "reference": "Typically, a fighter is allowed two people in their corner: one designated coach and one second. Only the coach may give instructions during the round. Source: WAKO Rules."
+    },
+    {
+        "id": 64,
+        "question": "Can a fighter be penalized for talking or making noises during the fight (other than a kiai)?",
+        "options": [
+            "No, freedom of speech is allowed.",
+            "Yes, this can be considered unsportsmanlike conduct and result in a warning.",
+            "Only if they use offensive language.",
+            "Only if the opponent complains."
+        ],
+        "correctAnswer": "Yes, this can be considered unsportsmanlike conduct and result in a warning.",
+        "reference": "Fighters are expected to conduct themselves professionally. Unnecessary talking, taunting, or grunting can be penalized. Source: WAKO Code of Ethics."
+    },
+    {
+        "id": 65,
+        "question": "What is the 'exit warning' in Points Fighting?",
+        "options": [
+            "A warning given for leaving the venue early.",
+            "A warning given to a fighter for stepping out of the fighting area.",
+            "A signal that the round is about to end.",
+            "A warning for not exiting the tatami quickly enough after the fight."
+        ],
+        "correctAnswer": "A warning given to a fighter for stepping out of the fighting area.",
+        "reference": "If a fighter steps out of bounds, the referee will stop the fight and issue an exit warning. A certain number of exit warnings can lead to a minus point."
+    },
+    {
+        "id": 66,
+        "question": "What is the age range for the 'Masters' division in WAKO?",
+        "options": [
+            "30-40 years old",
+            "35-45 years old",
+            "41 years and older",
+            "50 years and older"
+        ],
+        "correctAnswer": "41 years and older",
+        "reference": "The Masters division allows older competitors to continue competing against their peers. It typically starts at age 41. Source: WAKO Rules."
+    },
+    {
+        "id": 67,
+        "question": "If a fighter's equipment (e.g., head guard) becomes dislodged, what should happen?",
+        "options": [
+            "The fight continues until the end of the round.",
+            "The fighter must fix it themselves while fighting.",
+            "The referee must stop the fight to allow the equipment to be safely readjusted.",
+            "The opponent is awarded a point for causing the disruption."
+        ],
+        "correctAnswer": "The referee must stop the fight to allow the equipment to be safely readjusted.",
+        "reference": "Safety is paramount. The referee will call 'Stop' and allow the fighter to fix their equipment, often issuing a warning if it happens repeatedly. Source: WAKO Rules."
+    },
+    {
+        "id": 68,
+        "question": "What is the WAKO stance on doping?",
+        "options": [
+            "It is allowed if prescribed by a doctor.",
+            "WAKO follows the World Anti-Doping Agency (WADA) code and has a strict anti-doping policy.",
+            "Doping is only tested for in Ring Sports, not Tatami Sports.",
+            "There are no rules regarding doping."
+        ],
+        "correctAnswer": "WAKO follows the World Anti-Doping Agency (WADA) code and has a strict anti-doping policy.",
+        "reference": "As an IOC-recognized federation, WAKO is a signatory to the WADA code, and athletes can be tested at any time. Source: WAKO Anti-Doping Rules."
+    },
+    {
+        "id": 69,
+        "question": "In Points Fighting, what is the referee's call if a fighter scores a clean punch to the face mask?",
+        "options": [
+            "1 point",
+            "2 points",
+            "No point, as the face mask is not a target.",
+            "A warning for excessive contact."
+        ],
+        "correctAnswer": "1 point",
+        "reference": "The entire head guard is a legal target area. A controlled punch to any part of the head guard scores 1 point. Source: WAKO Points Fighting Rules."
+    },
+    {
+        "id": 70,
+        "question": "What is the 'Tatami Manager' or 'Tatami Chief' responsible for?",
+        "options": [
+            "Refereeing every fight on their tatami.",
+            "Overseeing all officials and fights on their designated tatami, and resolving protests.",
+            "Selling merchandise.",
+            "Coaching the national team."
+        ],
+        "correctAnswer": "Overseeing all officials and fights on their designated tatami, and resolving protests.",
+        "reference": "The Tatami Manager is the highest authority for a specific fighting area, ensuring the tournament runs smoothly and rules are applied correctly. Source: WAKO Rules."
+    },
+    {
+        "id": 71,
+        "question": "Is it legal to use the same hand to score two consecutive punches in Light Contact?",
+        "options": [
+            "No, you must alternate hands.",
+            "Yes, this is a standard 'double jab' and is legal.",
+            "Only if the first punch misses.",
+            "Only if you are in the senior division."
+        ],
+        "correctAnswer": "Yes, this is a standard 'double jab' and is legal.",
+        "reference": "Combinations of techniques are encouraged in Light Contact. There is no rule against using the same limb consecutively. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 72,
+        "question": "What is the official WAKO colour for the fighter who is called first?",
+        "options": [
+            "Blue",
+            "Red",
+            "White",
+            "Black"
+        ],
+        "correctAnswer": "Red",
+        "reference": "The first fighter called to the tatami is designated as the 'red' fighter and will wear red gloves/headguard. The second is 'blue'. Source: WAKO Rules."
+    },
+    {
+        "id": 73,
+        "question": "In Points Fighting, if a fighter is downed by a legal sweep, what is the point value?",
+        "options": [
+            "0 points",
+            "1 point",
+            "2 points",
+            "3 points"
+        ],
+        "correctAnswer": "1 point",
+        "reference": "A successful and legal sweep that downs an opponent is awarded 1 point. Source: WAKO Tatami Sports Rules."
+    },
+    {
+        "id": 74,
+        "question": "What is the primary purpose of the weigh-in procedure?",
+        "options": [
+            "To ensure fighters are in the correct and fair weight category for competition.",
+            "To take photos of the fighters.",
+            "To sell official merchandise.",
+            "To practice bowing to the officials."
+        ],
+        "correctAnswer": "To ensure fighters are in the correct and fair weight category for competition.",
+        "reference": "The weigh-in is a mandatory procedure to ensure fair and safe matchups by grouping competitors of similar size. Source: WAKO Rules."
+    },
+    {
+        "id": 75,
+        "question": "Can a fighter continue if they have a minor bleeding injury, like a nosebleed?",
+        "options": [
+            "No, any sign of blood results in immediate disqualification.",
+            "Yes, the referee will stop the fight, and the medic can treat the injury. The fighter can continue if the bleeding is stopped.",
+            "Yes, the fight continues without stopping.",
+            "Only if the opponent agrees to continue."
+        ],
+        "correctAnswer": "Yes, the referee will stop the fight, and the medic can treat the injury. The fighter can continue if the bleeding is stopped.",
+        "reference": "The referee will call 'Stop Time' and have the official doctor assess and treat the injury. The fight can resume if the doctor deems it safe. Source: WAKO Medical Rules."
+    },
+    {
+        "id": 76,
+        "question": "What is the referee's verbal command and signal for a kick to the body in Points Fighting?",
+        "options": [
+            "Shouts 'Two!' and points two fingers up.",
+            "Shouts 'One!' and points one finger at the scoring fighter.",
+            "Shouts 'Body Kick!' and makes a kicking motion.",
+            "Shouts 'Mawashi!' and points one finger at the scoring fighter."
+        ],
+        "correctAnswer": "Shouts 'One!' and points one finger at the scoring fighter.",
+        "reference": "A kick to the body is worth 1 point. The referee signals one finger and announces the score and colour, e.g., 'One point, Red!'. Source: WAKO Referee Manual."
+    },
+    {
+        "id": 77,
+        "question": "Is clinching or holding an opponent legal in Light Contact?",
+        "options": [
+            "Yes, for up to 5 seconds.",
+            "No, clinching, holding, or grabbing is a foul.",
+            "Yes, it is a key part of the discipline.",
+            "Only if you are losing the fight."
+        ],
+        "correctAnswer": "No, clinching, holding, or grabbing is a foul.",
+        "reference": "Light Contact is a striking discipline. Any form of grappling or holding is illegal and will be penalized. Source: WAKO Light Contact Rules."
+    },
+    {
+        "id": 78,
+        "question": "What is the 'Best Fighter' award at a tournament?",
+        "options": [
+            "An award given to the heaviest fighter.",
+            "An award given to the fighter who wins the most fights.",
+            "A discretionary award given by officials to a fighter who demonstrates exceptional skill, sportsmanship, and spirit.",
+            "An award for the coach of the winning team."
+        ],
+        "correctAnswer": "A discretionary award given by officials to a fighter who demonstrates exceptional skill, sportsmanship, and spirit.",
+        "reference": "This is a prestigious award that recognizes the most outstanding competitor of the tournament, not just based on wins but on overall performance and character."
+    },
+    {
+        "id": 79,
+        "question": "What should a fighter's uniform (trousers and jacket) be free of?",
+        "options": [
+            "Pockets, zips, and buttons.",
+            "The colour white.",
+            "Their club's logo.",
+            "Any stripes or patterns."
+        ],
+        "correctAnswer": "Pockets, zips, and buttons.",
+        "reference": "For safety, uniforms must be free of any hard or sharp objects that could injure a competitor, such as zips, buttons, or pockets. Source: WAKO Equipment Rules."
+    },
+    {
+        "id": 80,
+        "question": "In Points Fighting, if the centre referee awards a point but both side judges disagree, what is the result?",
+        "options": [
+            "The referee's decision is final, point is awarded.",
+            "The point is not awarded, as there is no majority.",
+            "The fighters' coaches decide.",
+            "The round is started again."
+        ],
+        "correctAnswer": "The point is not awarded, as there is no majority.",
+        "reference": "A majority of 2 out of 3 officials must agree for a point to be scored. If the side judges both disagree with the referee, their majority vote overrules the referee. Source: WAKO Points Fighting Rules."
+    }
+]

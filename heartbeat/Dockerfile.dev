@@ -1,0 +1,13 @@
+# Use an official Node.js runtime as a parent image
+FROM node:20-alpine
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy package.json and package-lock.json to leverage Docker cache
+COPY package*.json ./
+
+# Install all dependencies, including development ones like nodemon
+RUN npm install
+
+# The command to run the app will be provided by docker-compose.yml

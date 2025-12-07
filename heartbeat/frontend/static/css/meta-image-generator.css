@@ -1,0 +1,201 @@
+/* --- Meta Image Generator Specific Styles --- */
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.output-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.dashboard-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.generated-image-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--hb-card-radius);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.generated-image-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.image-preview-wrapper {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #1a1a1a;
+}
+
+.generated-image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.image-item-info {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.download-link {
+    color: var(--secondary-text-color);
+    font-size: 1.2rem;
+    transition: color 0.2s;
+}
+
+.download-link:hover {
+    color: var(--accent-color);
+}
+
+/* --- Code Tabs --- */
+.code-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    margin-top: 2rem;
+}
+
+.code-tab-btn {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.code-tab-btn:hover {
+    color: var(--primary-text-color);
+}
+
+.code-tab-btn.is-active {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
+
+.code-panel {
+    display: none;
+    padding-top: 1.5rem;
+}
+
+.code-panel.is-active {
+    display: block;
+}
+
+/* --- Instructions Panel --- */
+.code-panel .instructions {
+    font-size: 0.95rem;
+}
+
+.code-panel .instructions p {
+    margin: 0 0 1rem 0;
+}
+
+.code-panel .instructions p:last-child {
+    margin-bottom: 0;
+}
+
+.code-panel .instructions code {
+    background-color: #121212;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--hb-card-radius);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--accent-color);
+}
+
+pre {
+    background-color: #121212;
+    border: 1px solid var(--border-color);
+    border-radius: var(--hb-card-radius);
+    padding: 1.5rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #f8f8f2; /* Light text for code */
+    margin-bottom: 1rem;
+}
+
+/* --- Custom File Input Styling (THE FIX) --- */
+
+/* This is the key part: it hides the ugly default input but keeps it functional. */
+.custom-file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/* This is the container for our new custom button and the filename text. */
+.custom-file-input-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* This styles the <label> to look exactly like your other secondary form buttons. */
+.custom-file-label {
+    cursor: pointer;
+    display: inline-flex; /* Ensures it behaves like a button */
+    align-items: center;
+    justify-content: center;
+}
+
+/* This styles the text that displays the chosen file's name. */
+.file-name-display {
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    font-family: 'Quicksand', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Styling for the image preview boxes below the inputs */
+.image-upload-preview {
+    width: 100%;
+    height: 120px;
+    margin-top: 1rem;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--hb-card-radius);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-text-color);
+}
+
+.image-upload-preview .preview-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: var(--hb-card-radius);
+}

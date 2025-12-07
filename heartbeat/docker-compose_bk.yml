@@ -1,0 +1,68 @@
+services:
+  # The DEVELOPMENT frontend service (with live mapping). Proxied by Nginx.
+  spa-frontend-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    restart: unless-stopped
+    working_dir: /usr/src/app
+    profiles:
+      - "dev"
+    # This volume maps your entire project for nodemon to see server.js and frontend files
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - heartbeat-net
+    command: npm run start
+
+  # The PRODUCTION frontend service (uses a built image). Proxied by Nginx.
+  spa-frontend-prod:
+    build:
+      context: . # The context is the project root, where Dockerfile and package.json live
+      dockerfile: Dockerfile
+    profiles:
+      - "prod"
+    restart: unless-stopped
+    networks:
+      - heartbeat-net
+
+  # The Nginx service to act as a reverse proxy for the SPA services
+  nginx:
+    image: nginx:1.25
+    restart: unless-stopped
+    profiles:
+      - "prod"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf # Mount custom Nginx config
+      - certbot-etc:/etc/letsencrypt # Mount Let's Encrypt certificates
+      - certbot-webroot:/var/www/html # Mount webroot for ACME challenge
+      - ./cert.pem:/etc/ssl/dev/cert.pem
+      - ./key.pem:/etc/ssl/dev/key.pem
+    networks:
+      - heartbeat-net
+    depends_on:
+      spa-frontend-prod:
+        condition: service_started
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-webroot:/var/www/html
+    # The default command is for certificate renewal.
+    # For the first run, you will override this.
+    command: renew
+    profiles:
+      - "prod"
+
+networks:
+  heartbeat-net:
+    driver: bridge
+
+volumes:
+  certbot-etc: {}
+  certbot-webroot: {}

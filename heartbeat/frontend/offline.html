@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline - Heartbeat A CIC</title>
+    <link rel="stylesheet" href="/static/css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Additional styles for the offline page content */
+        .offline-container {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: var(--background-color, #121212);
+            color: var(--text-color, #fff);
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 800px;
+            border: 1px solid var(--border-color, #333);
+        }
+        .offline-container h1 {
+            color: var(--primary-color, #E53935);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .offline-container p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .offline-container .fa-wifi {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            color: var(--primary-color, #E53935);
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Site Header -->
+    <div class="header-container">
+        <header class="site-header">
+            <div class="site-header-content">
+                <div class="header-main-content">
+                    <div class="logo-header">
+                        <img src="/static/img/meta/favicon-48x48.png" alt="Heartbeat A CIC Logo" class="logo-svg" />
+                        <h1>Heartbeat A CIC</h1>
+                    </div>
+                    <p class="subtitle">"Help us to help another."</p>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Main content area -->
+    <main id="app">
+        <div class="offline-container">
+            <i class="fa-solid fa-wifi"></i>
+            <h1>You Are Offline</h1>
+            <p>We can't seem to connect to the internet. The page you are looking for hasn't been saved for offline use.</p>
+            <p>Please check your connection and try again.</p>
+        </div>
+    </main>
+
+    <!-- Shared Site Footer -->
+    <footer class="site-footer-main">
+        <div class="footer-bottom">
+            <span>&copy; 2025 Heartbeat A CIC. All rights reserved.</span>
+            <span>Web Development: Waffle Media</span>
+        </div>
+    </footer>
+</body>
+</html>

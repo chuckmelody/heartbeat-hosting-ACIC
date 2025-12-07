@@ -1,0 +1,177 @@
+/* --- Donate Page Layout --- */
+.donate-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .donate-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- Donation Form --- */
+.donation-form {
+    padding: 2rem;
+}
+
+.amount-selector {
+    margin-bottom: 1.5rem;
+}
+
+.amount-selector label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.amount-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.amount-btn {
+    background-color: #121212;
+    border: 1px solid #2c2c2c;
+    color: var(--primary-text-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    border-radius: var(--hb-button-radius);
+}
+
+.amount-btn:hover {
+    background-color: #2a2a2a;
+}
+
+.amount-btn.is-selected {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.custom-amount-input {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    border: 1px solid #2c2c2c;
+    border-radius: var(--hb-card-radius);
+    padding: 0 1rem;
+}
+
+.custom-amount-input span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+}
+
+.custom-amount-input input {
+    background: none;
+    border: none;
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0.5rem;
+    width: 100%;
+}
+
+/* Hide browser default spinners on number input */
+.custom-amount-input input[type=number]::-webkit-outer-spin-button,
+.custom-amount-input input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-amount-input input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* --- Donation Summary --- */
+.donation-summary {
+    border-top: 1px solid var(--border-color);
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.summary-row.total {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.fee-info {
+    font-size: 0.8rem;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* --- Live Counter --- */
+.live-counter-card {
+    padding: 2rem;
+    text-align: center;
+    /* Applying the standard card effect */
+    background: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--hb-card-radius);
+}
+
+.live-counter-card .fa-hand-holding-heart {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.live-counter-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0.5rem 0;
+}
+
+.donation-count {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.donation-count-label {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+}
+
+/* --- Thank You Card --- */
+.thank-you-card {
+    margin-top: 2rem;
+    text-align: center;
+    border-left: 4px solid var(--accent-color);
+}
+
+.thank-you-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    color: var(--primary-text-color);
+}
+
+.thank-you-card p {
+    font-size: 1.1rem;
+}

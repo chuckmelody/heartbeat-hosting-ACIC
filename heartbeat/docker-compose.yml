@@ -1,0 +1,43 @@
+services:
+  # The DEVELOPMENT frontend service (with live mapping). Proxied by Nginx.
+  spa-frontend-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: spa_frontend_dev
+    profiles:
+      - "dev"
+    # This volume maps your entire project for nodemon to see server.js and frontend files
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - heartbeat-net
+    working_dir: /usr/src/app
+    command: npm run start
+
+  # The Nginx service to act as a reverse proxy for the SPA services
+  nginx:
+    image: nginx:1.25
+    container_name: heartbeat-nginx
+    restart: unless-stopped
+    profiles:
+      - "dev"
+    ports:
+      - "8081:80"
+      - "8444:443"
+
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf # Mount custom Nginx config
+      # Mount local dev certificates from the 'certs' directory
+      - ./certs/cert.pem:/etc/ssl/dev/cert.pem
+      - ./certs/key.pem:/etc/ssl/dev/key.pem
+    networks:
+      - heartbeat-net
+    depends_on:
+      spa-frontend-dev:
+        condition: service_started
+
+networks:
+  heartbeat-net:
+    driver: bridge

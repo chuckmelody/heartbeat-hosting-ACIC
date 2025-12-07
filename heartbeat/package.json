@@ -1,0 +1,39 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "HeartBeat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:debug": "DEBUG=http nodemon server.js",
+    "start:prod": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "mkcert": "^3.2.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuckmelody/heartbeat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chuckmelody/heartbeat/issues"
+  },
+  "homepage": "https://github.com/chuckmelody/heartbeat#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

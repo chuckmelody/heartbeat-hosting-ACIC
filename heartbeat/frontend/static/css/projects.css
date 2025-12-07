@@ -1,0 +1,107 @@
+/* --- Projects Page Grid --- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+}
+
+/* --- Project Card Layout --- */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Needed for absolute positioning of the button */
+    background: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--hb-card-radius);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensure content area fills available space */
+}
+
+.project-card-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-text-color);
+}
+
+.project-card-content p {
+    color: var(--secondary-text-color);
+}
+
+.project-card-focus {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto; /* Push this section to the bottom of the content area */
+}
+
+.project-card-focus strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: var(--primary-text-color);
+    margin-bottom: 0.5rem;
+}
+
+.project-card-focus span {
+    display: inline-block;
+    background-color: rgba(229, 57, 53, 0.1);
+    color: var(--accent-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.focus-tags-and-share {
+    display: flex;
+    justify-content: space-between; /* This is the FIX: Puts space between the tags group and the button */
+    align-items: center;
+    margin-top: 0.7rem;
+
+}
+
+/* --- Project Card Share Button --- */
+.project-share-btn {
+    /* Reset to a normal button with no background or border */
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0; /* Remove default padding */
+    padding-bottom: 0.6rem;
+    /* Style the text and icon */
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+    transition: color 0.2s;
+}
+
+.project-share-btn:hover {
+    color: var(--accent-color); /* Change color on hover */
+}

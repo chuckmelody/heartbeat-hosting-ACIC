@@ -1,0 +1,165 @@
+{
+    "name": "Heartbeat A CIC",
+    "short_name": "Heartbeat",
+    "description": "Heatbeat A CIC is a Community Interest Company dedicated to supporting community well-being through education, collaboration, and social innovation.",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#121212",
+    "theme_color": "#ae2d1f",
+    "categories": [
+        "business",
+        "education",
+        "lifestyle",
+        "social"
+    ],
+    "icons": [
+        {
+            "src": "/static/img/meta/pwa-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/img/meta/pwa-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/static/img/meta/pwa-icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/img/meta/pwa-icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/static/img/meta/pwa-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/static/img/meta/pwa-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/static/img/screenshots/screenshot--desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot--mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/) Mobile (720x1280)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-events-desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/events) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-events-mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/events) Mobile (720x1280)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-store-desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/store) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-store-mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/store) Mobile (720x1280)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-about-desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/about) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-about-mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/about) Mobile (720x1280)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-contact-desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/contact) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-contact-mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/contact) Mobile (720x1280)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-projects-desktop.png",
+            "sizes": "2560x1440",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Heartbeat A CIC (/projects) Desktop (1280x720)"
+        },
+        {
+            "src": "/static/img/screenshots/screenshot-projects-mobile.png",
+            "sizes": "1440x2560",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Heartbeat A CIC (/projects) Mobile (720x1280)"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Get in touch with the Heartbeat A CIC team",
+            "url": "/contact",
+            "icons": [
+                {
+                    "src": "/static/img/meta/shortcut-contact.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "View Events",
+            "short_name": "Events",
+            "description": "See our upcoming community events",
+            "url": "/events",
+            "icons": [
+                {
+                    "src": "/static/img/meta/shortcut-events.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}

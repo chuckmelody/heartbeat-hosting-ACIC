@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 1. Character Set and Viewport (Critical for rendering) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 2. Core SEO, PWA, and Branding Meta Tags -->
+    <title>Heartbeat A CIC</title>
+    <meta name="description"
+        content="Heartbeat A CIC is a Community Interest Company dedicated to supporting community well-being through education, collaboration, and social innovation." />
+    <link rel="canonical" href="https://heartbeatacic.org" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ae2d1f" />
+
+    <!-- 3. Favicons and App Icons -->
+    <link rel="apple-touch-icon" href="/static/img/meta/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/meta/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/meta/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/meta/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/static/img/meta/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/img/meta/pwa-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="256x256" href="/static/img/meta/pwa-icon-256x256.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/static/img/meta/pwa-icon-512x512.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ae2d1f" />
+
+    <!-- 4. Performance Hints (Preconnect to external domains and preload critical assets) -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" />
+
+    <!-- 5. Social Media Meta Tags (Open Graph / Facebook & Twitter) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://heartbeatacic.org" />
+    <meta property="og:title" content="Heartbeat A CIC" />
+    <meta property="og:description"
+        content="Heartbeat A CIC is a Community Interest Company dedicated to supporting community well-being through education, collaboration, and social innovation." />
+    <meta property="og:image" content="https://heartbeatacic.org/static/img/meta/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Heartbeat A CIC" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://heartbeatacic.org" />
+    <meta property="twitter:title" content="Heartbeat A CIC" />
+    <meta property="twitter:description"
+        content="Heartbeat A CIC is a Community Interest Company dedicated to supporting community well-being through education, collaboration, and social innovation." />
+    <meta property="twitter:image" content="https://heartbeatacic.org/static/img/meta/og-image.png" />
+    <meta name="twitter:creator" content="@HeartbeatACIC" />
+    <meta name="twitter:site" content="@HeartbeatACIC" />
+
+    <!-- 6. Stylesheets (Render-blocking) -->
+     <!-- Newspaper headline fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/css/index.css" />
+    <link rel="stylesheet" href="/static/css/tooltip.css" />
+    <link rel="stylesheet" href="/static/css/modal.css" />
+    <link rel="stylesheet" href="/static/css/carousel.css" />
+    <link rel="stylesheet" href="/static/css/glass-neu.css" />
+    <link rel="stylesheet" href="/static/css/notifications.css" />
+
+    <!-- 7. Structured Data (JSON-LD for Google) -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Heartbeat A CIC",
+  "url": "https://heartbeatacic.org",
+  "logo": "https://heartbeatacic.org/static/img/meta/logo-square.png",
+  "description": "Heartbeat A CIC is a Community Interest Company dedicated to supporting community well-being through education, collaboration, and social innovation.",
+  "sameAs": ["https://www.twitter.com/HeartbeatACIC"]
+}
+</script>
+
+    <!-- 8. Deferred Scripts (Non-render-blocking) -->
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- GSAP ScrollToPlugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" defer
+        integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JSZip for file zipping -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer
+        integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+
+    <style>
+        /* Hide router view initially to prevent flash of unstyled content before animation */
+        #router-view {
+            opacity: 0;
+        }
+    </style>
+    <!-- Slide-out Menu -->
+    <nav id="side-menu">
+        <div class="menu-section">
+            <details open>
+                <summary>Main</summary>
+                <a href="/" class="nav__link" data-link data-tooltip="Go to Dashboard"><i
+                        class="fa-solid fa-gauge fa-fw"></i><span>Dashboard</span></a>
+                <a href="/posts" class="nav__link" data-link data-tooltip="View Blog Posts"><i
+                        class="fa-solid fa-signs-post fa-fw"></i><span>Posts</span></a>
+                <a href="/store" class="nav__link" data-link data-tooltip="Browse our affiliate store"><i
+                        class="fa-solid fa-store fa-fw"></i><span>Store</span></a>
+                <a href="/settings" class="nav__link" data-link data-tooltip="Change Application Settings"><i
+                        class="fa-solid fa-gear fa-fw"></i><span>Settings</span></a>
+                <a href="/about" class="nav__link" data-link data-tooltip="Learn more about us"><i
+                        class="fa-solid fa-circle-info fa-fw"></i><span>About
+                        Us</span></a>
+                <a href="/projects" class="nav__link" data-link data-tooltip="See our projects"><i
+                        class="fa-solid fa-briefcase fa-fw"></i><span>Our
+                        Work</span></a>
+                <a href="/events" class="nav__link" data-link data-tooltip="View upcoming events"><i
+                        class="fa-solid fa-calendar-days fa-fw"></i><span>Events</span></a>
+                <a href="/news" class="nav__link" data-link data-tooltip="Read our latest news"><i
+                        class="fa-solid fa-newspaper fa-fw"></i><span>News</span></a>
+                <a href="/contact" class="nav__link" data-link data-tooltip="Get in touch with us"><i
+                        class="fa-solid fa-envelope fa-fw"></i><span>Contact</span></a>
+            </details>
+        </div>
+        <div class="menu-section">
+            <details>
+                <summary>Fun Exams</summary>
+                <div class="menu-links">
+                    <a href="/exam/cic-101" class="nav__link" data-link><i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        101 in CIC</a>
+                    <a href="/exam/ecka-101" class="nav__link" data-link><i class="fa-solid fa-khanda fa-fw"></i> 101 in
+                        ECKA</a>
+                    <a href="/exam/wako-101" class="nav__link" data-link><i class="fa-solid fa-user-group fa-fw"></i>
+                        101 in WAKO</a>
+                    <a href="/exam/safeguarding-101" class="nav__link" data-link><i
+                            class="fa-solid fa-user-shield fa-fw"></i> 101 in Safeguarding</a>
+                </div>
+            </details>
+        </div>
+        <div class="menu-section">
+            <details>
+                <summary>Tools</summary>
+                <div class="menu-links">
+                    <a href="/tools" class="nav__link" data-link><i class="fa-solid fa-toolbox fa-fw"></i> IT Tools Suite</a>
+                    <a href="/tools/meta-image-generator" class="nav__link" data-link><i
+                            class="fa-solid fa-wand-magic-sparkles fa-fw"></i> Meta Image Generator</a>
+                </div>
+            </details>
+        </div>
+        <div class="menu-section">
+            <details>
+                <summary>Our CIC</summary>
+                <a href="/team" class="nav__link" data-link data-tooltip="Meet the team"><i
+                        class="fa-solid fa-users fa-fw"></i><span>Our
+                        Team</span></a>
+                <a href="/reports" class="nav__link" data-link data-tooltip="Download our reports"><i
+                        class="fa-solid fa-chart-line fa-fw"></i><span>Annual
+                        Reports</span></a>
+                <a href="/partners" class="nav__link" data-link data-tooltip="See our partners"><i
+                        class="fa-solid fa-handshake-angle fa-fw"></i><span>Partners</span></a>
+                <a href="/volunteer" class="nav__link" data-link data-tooltip="Join us as a volunteer"><i
+                        class="fa-solid fa-hands-helping fa-fw"></i><span>Volunteer</span></a>
+                <a href="/donate" class="nav__link" data-link data-tooltip="Support our cause"><i
+                        class="fa-solid fa-hand-holding-heart fa-fw"></i><span>Donate</span></a>
+            </details>
+        </div>
+        <div class="menu-section">
+            <details>
+                <summary>Legal & Policies</summary>
+                <a href="/privacy-policy" class="nav__link" data-link data-tooltip="Read our Privacy Policy"><i
+                        class="fa-solid fa-shield-halved fa-fw"></i><span>Privacy Policy</span></a>
+                <a href="/cookie-policy" class="nav__link" data-link data-tooltip="Read our Cookie Policy"><i
+                        class="fa-solid fa-cookie-bite fa-fw"></i><span>Cookie Policy</span></a>
+                <a href="/terms" class="nav__link" data-link data-tooltip="Read our Terms of Use"><i
+                        class="fa-solid fa-file-contract fa-fw"></i><span>Terms
+                        of Use</span></a>
+                <a href="/accessibility" class="nav__link" data-link data-tooltip="Read our Accessibility Statement"><i
+                        class="fa-solid fa-universal-access fa-fw"></i><span>Accessibility</span></a>
+                <a href="/complaints" class="nav__link" data-link data-tooltip="View our Complaints Policy"><i
+                        class="fa-solid fa-gavel fa-fw"></i><span>Complaints</span></a>
+                <a href="/safeguarding" class="nav__link" data-link data-tooltip="Read our Safeguarding Policy"><i
+                        class="fa-solid fa-user-shield fa-fw"></i><span>Safeguarding</span></a>
+                <a href="/equality" class="nav__link" data-link data-tooltip="Read our Equality Policy"><i
+                        class="fa-solid fa-scale-balanced fa-fw"></i><span>Equality</span></a>
+            </details>
+        </div>
+    </nav>
+
+    <!-- Overlay for closing menu -->
+    <div id="menu-overlay"></div>
+
+    <!-- Header with menu button -->
+    <header class="mobile-header">
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Menu" data-tooltip="Toggle Navigation Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="/" class="mobile-header-center" data-link>
+            <img src="/static/img/meta/favicon-48x48.png" alt="Heatbeat A CIC Logo" class="mobile-header-logo" />
+            <span class="mobile-header-title">Heatbeat A CIC</span>
+        </a>
+        <div class="mobile-header-right">
+            <a href="https://webmail.heartbeatacic.org/" class="mail-button" target="_blank" rel="noopener noreferrer"
+                data-tooltip="HeartBeat A CIC Mail">
+                <i class="fa-solid fa-envelope fa-fw"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. ADD THIS HTML FOR THE NEW GLASS NAVIGATION BAR -->
+    <nav id="glass-nav-bar"></nav>
+
+    <!-- Main Site Header -->
+    <div class="header-container">
+        <header class="site-header">
+            <div class="site-header-content">
+                <div class="header-main-content">
+                    <a href="/" class="logo-header" data-link>
+                        <img src="/static/img/meta/favicon-48x48.png" alt="Heatbeat A CIC Logo" class="logo-svg"
+                            data-tooltip="Heatbeat A CIC" />
+                        <h1>Heatbeat A CIC</h1>
+                    </a>
+                    <p class="subtitle">"Help us to help another."</p>
+                    <div class="header-cta-container">
+                        <a href="/projects" class="header-cta-button" data-link
+                            data-tooltip="View our community projects"><i class="fa-solid fa-briefcase fa-fw"></i> Our
+                            Work</a>
+                        <a href="/contact" class="header-cta-button secondary" data-link
+                            data-tooltip="Send us a message"><i class="fa-solid fa-envelope fa-fw"></i> Get In Touch</a>
+                    </div>
+                    <div id="live-clock-container" data-tooltip="Your local time">
+                        <!-- Live clock will be injected here by TimeManager -->
+                    </div>
+                </div>
+                <div id="header-auth-container">
+                    <!-- Auth buttons will be injected here by the router -->
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+    <div class="sub-header-actions">
+        <a href="/donate" class="header-link-button" data-link>
+            <i class="fa-solid fa-hand-holding-heart fa-fw"></i><span>Donate</span>
+        </a>
+        <a href="/volunteer" class="header-link-button" data-link>
+            <i class="fa-solid fa-hands-helping fa-fw"></i><span>Volunteer</span>
+        </a>
+    </div>
+
+    <!-- Main content area where views are rendered -->
+    <main id="app">
+        <div id="router-view"></div>
+
+        <!-- Shared Site Footer -->
+        <footer class="site-footer-main">
+            <div class="footer-top-row">
+                <div class="footer-header">
+                    <img src="/static/img/meta/favicon-48x48.png" alt="Heatbeat A CIC Logo" class="logo-svg"
+                        xmlns="http://www.w3.org/2000/svg" />
+                    <div class="footer-title-group">
+                        <h3>Heatbeat A CIC</h3>
+                        <p class="footer-subtitle">"Help us to help another."</p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook" data-tooltip="Find us on Facebook (Coming Soon)"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter" data-tooltip="Follow us on Twitter (Coming Soon)"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn" data-tooltip="Connect on LinkedIn (Coming Soon)"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-container">
+                <div class="footer-section">
+                    <h4><i class="fa-solid fa-compass fa-fw"></i> Navigation</h4>
+                    <ul>
+                        <li><a href="/" data-link data-tooltip="Return to the homepage">Home</a></li>
+                        <li><a href="/about" data-link data-tooltip="Learn more about us">About Us</a></li>
+                        <li><a href="/store" data-link data-tooltip="Browse our affiliate store">Store</a></li>
+                        <li><a href="/projects" data-link data-tooltip="See our projects">Our Work</a></li>
+                        <li><a href="/events" data-link data-tooltip="View upcoming events">Events</a></li>
+                        <li><a href="/contact" data-link data-tooltip="Get in touch with us">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fa-solid fa-sitemap fa-fw"></i> Our CIC</h4>
+                    <ul>
+                        <li><a href="/team" data-link data-tooltip="Meet the team">Our Team</a></li>
+                        <li><a href="/reports" data-link data-tooltip="Download our reports">Annual Reports</a></li>
+                        <li><a href="/partners" data-link data-tooltip="See our partners">Partners</a></li>
+                        <li><a href="/volunteer" data-link data-tooltip="Join us as a volunteer">Volunteer</a></li>
+                        <li><a href="/donate" data-link data-tooltip="Support our cause">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fa-solid fa-gavel fa-fw"></i> Legal</h4>
+                    <ul>
+                        <li><a href="/privacy-policy" data-link data-tooltip="Read our Privacy Policy">Privacy
+                                Policy</a></li>
+                        <li><a href="/cookie-policy" data-link data-tooltip="Read our Cookie Policy">Cookie Policy</a>
+                        </li>
+                        <li><a href="/terms" data-link data-tooltip="Read our Terms of Use">Terms of Use</a></li>
+                        <li><a href="/accessibility" data-link
+                                data-tooltip="Read our Accessibility Statement">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fa-solid fa-phone fa-fw"></i> Contact Us</h4>
+                    <ul>
+                        <li><a href="mailto:info@heartbeatacic.org"
+                                data-tooltip="Email for general inquiries">info@heartbeatacic.org</a></li>
+                        <li><a href="tel:07557949273" data-tooltip="Call us directly">07557 949273</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal-info">
+                <p>Heatbeat A CIC is a Community Interest Company registered in England and Wales.</p>
+                <p>Company Registration Number: 14772840 | Registered Office: First Floor Offices, 25 Sanders Road,
+                    Finedon Road Industrial Estate, Wellingborough, Northamptonshire, England, NN8 4NL</p>
+                <p style="margin-top: 1rem; opacity: 0.8;">As an Amazon Associate, we earn from qualifying purchases.
+                </p>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2025 Heatbeat A CIC. All rights reserved.</span>
+                <span>Web Development: Waffle Media</span>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/config.js"></script>
+    <!-- Main JavaScript file (as a module) -->
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+
+</html>

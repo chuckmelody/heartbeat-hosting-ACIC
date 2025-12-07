@@ -1,0 +1,30 @@
+cat <<'EOF' > .gitignore
+# Local configuration
+.env
+*.local
+*.secret
+
+# Node/npm output
+node_modules/
+dist/
+build/
+heartbeat/frontend/static/img/meta_assets*.zip
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker helpers
+hosting-build/
+*.stack.yml
+
+# IDE/editor
+.vscode/
+.history/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+EOF

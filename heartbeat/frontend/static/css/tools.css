@@ -1,0 +1,209 @@
+.tools-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.glass-panel {
+    background: rgba(15, 15, 20, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    box-shadow: 0 25px 60px rgba(9, 11, 22, 0.65);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    padding: 1.8rem;
+}
+
+.tools-hero-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.tools-kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0.35rem;
+}
+
+.tools-title {
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    margin: 0;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.tools-lede {
+    font-size: 1rem;
+    color: rgba(248, 250, 252, 0.9);
+    max-width: 720px;
+}
+
+.tools-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.glass-link,
+.glass-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    padding: 0.65rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.glass-button:hover,
+.glass-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-1px);
+}
+
+.tools-workbench {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.tools-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.tools-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.tools-pill {
+    padding: 0.25rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.tools-card-body {
+    margin: 0;
+    color: rgba(248, 250, 252, 0.85);
+}
+
+.tools-iframe-wrap {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: radial-gradient(circle at top, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.4));
+    min-height: 520px;
+    position: relative;
+}
+
+.tools-iframe-wrap iframe {
+    border: none;
+    width: 100%;
+    height: 520px;
+    background: transparent;
+}
+
+.tools-iframe-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    flex-wrap: wrap;
+}
+
+.tools-card-kicker {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+.tools-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    font-size: 0.9rem;
+    color: rgba(248, 250, 252, 0.85);
+}
+
+.tools-checklist code {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.85rem;
+}
+
+.tools-spotlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.tools-spotlight-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    background: rgba(12, 12, 18, 0.7);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.tools-spotlight-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--accent-color, #ae2d1f);
+    font-size: 1.05rem;
+    flex-shrink: 0;
+}
+
+.tools-spotlight-item h5 {
+    margin: 0 0 0.4rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tools-spotlight-item p {
+    margin: 0;
+    color: rgba(248, 250, 252, 0.8);
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 520px) {
+    .tools-hero-actions {
+        flex-wrap: wrap;
+    }
+}

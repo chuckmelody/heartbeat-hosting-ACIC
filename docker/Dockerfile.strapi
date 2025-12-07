@@ -1,0 +1,30 @@
+FROM node:20-bookworm-slim
+
+ARG STRAPI_SRC=strapi
+ENV NODE_ENV=production \
+    APP_DIR=/opt/app
+
+WORKDIR ${APP_DIR}
+
+# System deps needed for building native modules (sharp, bcrypt, etc.)
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends build-essential python3 ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy application source
+COPY ${STRAPI_SRC}/ ./
+
+# Install dependencies
+RUN if [ -f yarn.lock ]; then \
+      corepack enable \
+      && yarn install --frozen-lockfile; \
+    else \
+      npm install --legacy-peer-deps; \
+    fi
+
+# Build and prune dev deps
+RUN npm run build \
+    && npm prune --omit=dev
+
+EXPOSE 1337
+CMD ["npm","run","start"]

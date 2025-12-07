@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Volunteer Application</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #121212; color: #EAEAEA; padding: 20px;">
+    <div
+        style="max-width: 600px; margin: auto; background-color: #1e1e1e; border-radius: 12px; overflow: hidden; border: 1px solid #2c2c2c;">
+        <div
+            style="background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('{{bgImageUrl}}'); background-size: cover; background-position: center; padding: 20px; text-align: center;">
+            <h1 style="color: #ae2d1f; margin: 0; font-family: 'Montserrat', sans-serif;">New Volunteer Application</h1>
+        </div>
+        <div style="padding: 20px;">
+            <h2 style="color: #EAEAEA; border-bottom: 1px solid #2c2c2c; padding-bottom: 10px;">Applicant Details</h2>
+            <table style="width: 100%; border-collapse: collapse; color: #B3B3B3;">
+                <tr style="border-bottom: 1px solid #2c2c2c;">
+                    <td style="padding: 10px; font-weight: bold; width: 150px;">Name:</td>
+                    <td style="padding: 10px;">{{name}}</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #2c2c2c;">
+                    <td style="padding: 10px; font-weight: bold;">Email:</td>
+                    <td style="padding: 10px;"><a href="mailto:{{email}}" style="color: #ae2d1f; text-decoration: none;">{{email}}</a></td>
+                </tr>
+                <tr style="border-bottom: 1px solid #2c2c2c;">
+                    <td style="padding: 10px; font-weight: bold;">Phone:</td>
+                    <td style="padding: 10px;">{{phone}}</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #2c2c2c;">
+                    <td style="padding: 10px; font-weight: bold;">Has Current DBS Check:</td>
+                    <td style="padding: 10px;">{{dbs}}</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #2c2c2c;">
+                    <td style="padding: 10px; font-weight: bold; vertical-align: top;">Availability:</td>
+                    <td style="padding: 10px;">{{availability}}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; font-weight: bold; vertical-align: top;">Reason for Volunteering:</td>
+                    <td style="padding: 10px; line-height: 1.6;">{{reason}}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; font-weight: bold; vertical-align: top;">Relevant Information:</td>
+                    <td style="padding: 10px; line-height: 1.6;">{{conditions}}</td>
+                </tr>
+            </table>
+        </div>
+        <div style="background-color: #121212; padding: 15px; text-align: center; font-size: 12px; color: #666;">
+            <p style="margin: 0;">This is an automated message from the Heatbeat A CIC website.</p>
+        </div>
+    </div>
+</body>
+
+</html>

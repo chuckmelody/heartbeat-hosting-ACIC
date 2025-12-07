@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Banner</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden;
+        }
+
+        .banner-container {
+            position: relative;
+            width: 300px;
+            height: 250px;
+            background-image: linear-gradient(rgba(18, 18, 18, 0.6), rgba(18, 18, 18, 0.6)), url('/static/img/junior1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .banner-logo {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fadeIn 1s ease-out 0.2s forwards;
+        }
+
+        .banner-headline {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            margin: 0 0 15px 0;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUpFadeIn 1s ease-out 0.5s forwards;
+        }
+
+        .banner-cta {
+            padding: 0.75rem 1.5rem;
+            background-color: #ae2d1f;
+            color: white;
+            font-weight: 700;
+            border-radius: 0;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: slideUpFadeIn 1s ease-out 1s forwards, pulse 2s infinite 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUpFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/donate" class="banner-container" target="_parent">
+        <img src="/static/img/meta/favicon-48x48.png" alt="Heatbeat A CIC Logo" class="banner-logo" />
+        <div class="banner-headline">Support Our Mission</div>
+        <div class="banner-cta">Donate Now</div>
+    </a>
+</body>
+
+</html>
+
+```
+
+### 2. Update `_RightSidebar.js` to Use the New Banner
+
+Finally, I will update the sidebar to point to this new, working test banner.
+
+```diff
+--- a/c:/Users/gregh/Desktop/WSL_Backup/projects/Backup/spa/frontend/static/js/views/_RightSidebar.js
++++ b/c:/Users/gregh/Desktop/WSL_Backup/projects/Backup/spa/frontend/static/js/views/_RightSidebar.js
+@@ -29,7 +29,7 @@
+return `
+<aside class="right-sidebar">
+    <div class="iframe-banner-container">
+        - <iframe src="/static/advrerts/YOUR_BANNER_FOLDER_NAME_HERE/index.html" title="Support Our Mission Banner"
+            scrolling="no"></iframe>
+        + <iframe src="/static/banners/example-banner-300x250/index.html" title="Support Our Mission Banner"
+            scrolling="no"></iframe>
+    </div>
+
+    <!-- Link Tree Card -->
+
+    ```
+
+    This will definitively fix the issue. The sidebar will now display a working, animated banner. You can now copy the
+    files from any folder inside your `advrerts` directory and paste them into the new
+    `frontend/static/banners/example-banner-300x250/` directory, overwriting the test files, to display your chosen ad.

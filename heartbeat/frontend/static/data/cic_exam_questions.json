@@ -1,0 +1,480 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary purpose of a Community Interest Company (CIC) in the UK?",
+        "options": [
+            "To maximize profit for private shareholders.",
+            "To provide a benefit to the community.",
+            "To operate as a registered charity.",
+            "To avoid paying corporation tax."
+        ],
+        "correctAnswer": "To provide a benefit to the community.",
+        "reference": "A CIC is a special type of limited company which exists to benefit the community rather than private shareholders. Source: GOV.UK, Office of the Regulator of Community Interest Companies."
+    },
+    {
+        "id": 2,
+        "question": "What is the 'asset lock' in the context of a CIC?",
+        "options": [
+            "A mechanism to prevent the company from acquiring new assets.",
+            "A legal clause that locks the company's assets to ensure they are used for the community's benefit.",
+            "A type of high-security padlock used on CIC premises.",
+            "A financial tool for freezing company bank accounts."
+        ],
+        "correctAnswer": "A legal clause that locks the company's assets to ensure they are used for the community's benefit.",
+        "reference": "The asset lock is a fundamental feature of a CIC. It's a legal promise to ensure that the CIC’s assets are used for its social objectives. Source: CIC Regulator Guidance (CIC36)."
+    },
+    {
+        "id": 3,
+        "question": "Who approves the registration of a CIC?",
+        "options": [
+            "HM Revenue & Customs (HMRC)",
+            "The Charity Commission",
+            "The Regulator of Community Interest Companies",
+            "The Prime Minister's Office"
+        ],
+        "correctAnswer": "The Regulator of Community Interest Companies",
+        "reference": "The CIC Regulator is the independent official responsible for deciding whether an organisation is eligible to become, or continue to be, a CIC. Source: GOV.UK."
+    },
+    {
+        "id": 4,
+        "question": "What is the 'community interest test'?",
+        "options": [
+            "A public vote on the company's activities.",
+            "A test to ensure the company's name is not offensive.",
+            "A test to ensure a reasonable person would consider its activities are being carried on for the benefit of the community.",
+            "An exam for the company directors."
+        ],
+        "correctAnswer": "A test to ensure a reasonable person would consider its activities are being carried on for the benefit of the community.",
+        "reference": "This is the key test that a company must pass to be registered as a CIC. The Regulator assesses this based on the information provided. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 5,
+        "question": "Can a CIC be a charity?",
+        "options": [
+            "Yes, all CICs are automatically charities.",
+            "No, a CIC cannot be a charity, and a charity cannot be a CIC.",
+            "Yes, but only if it's also registered in Scotland.",
+            "Only if it has no paid employees."
+        ],
+        "correctAnswer": "No, a CIC cannot be a charity, and a charity cannot be a CIC.",
+        "reference": "CICs and charities are mutually exclusive legal structures, although they can work together. A CIC has more freedom in its operations than a charity. Source: GOV.UK."
+    },
+    {
+        "id": 6,
+        "question": "What form must be submitted annually by a CIC to the Regulator, in addition to its accounts?",
+        "options": [
+            "Form CIC100",
+            "Form CIC34 (The CIC Report)",
+            "Form VAT1",
+            "Form P11D"
+        ],
+        "correctAnswer": "Form CIC34 (The CIC Report)",
+        "reference": "Every year, a CIC must deliver a CIC Report (form CIC34) along with its accounts to Companies House. This report details how the CIC has pursued its community benefit. Source: GOV.UK."
+    },
+    {
+        "id": 7,
+        "question": "What are the two types of legal structure a CIC can have?",
+        "options": [
+            "Public Limited Company or Private Limited Company",
+            "Limited by shares or Limited by guarantee",
+            "Sole Trader or Partnership",
+            "Trust or Association"
+        ],
+        "correctAnswer": "Limited by shares or Limited by guarantee",
+        "reference": "A CIC must be a limited company. It can be limited by shares, or limited by guarantee. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 8,
+        "question": "In a CIC limited by shares, what is the 'dividend cap'?",
+        "options": [
+            "A limit on the total salary a director can be paid.",
+            "A cap on the total profit the company can make.",
+            "A limit on the amount of profit that can be distributed to shareholders as dividends.",
+            "A cap on the number of shares that can be issued."
+        ],
+        "correctAnswer": "A limit on the amount of profit that can be distributed to shareholders as dividends.",
+        "reference": "The dividend cap ensures that the majority of profits are retained within the company to be used for community benefit, rather than being paid out to shareholders. Source: GOV.UK."
+    },
+    {
+        "id": 9,
+        "question": "If a CIC is dissolved, where must its remaining assets go?",
+        "options": [
+            "To the directors of the company.",
+            "To the UK Government Treasury.",
+            "To another asset-locked body (like another CIC or a charity) named in its dissolution documents.",
+            "To its private investors."
+        ],
+        "correctAnswer": "To another asset-locked body (like another CIC or a charity) named in its dissolution documents.",
+        "reference": "This is a key part of the asset lock. The assets must continue to be used for community benefit even if the original CIC ceases to exist. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 10,
+        "question": "Can the directors of a CIC be paid a salary?",
+        "options": [
+            "No, all directors must be unpaid volunteers.",
+            "Yes, but only if the CIC is limited by shares.",
+            "Yes, directors can be paid, provided the remuneration is reasonable and not more than would be paid for a similar role in a commercial company.",
+            "Yes, but their salary is capped at the National Minimum Wage."
+        ],
+        "correctAnswer": "Yes, directors can be paid, provided the remuneration is reasonable and not more than would be paid for a similar role in a commercial company.",
+        "reference": "Unlike many charities, CICs can pay their directors. This must be transparent and reasonable, and is reported in the annual CIC report. Source: GOV.UK."
+    },
+    {
+        "id": 11,
+        "question": "What does 'CIC' stand for?",
+        "options": [
+            "Community Investment Corporation",
+            "Company of Interest to the Community",
+            "Community Interest Company",
+            "Corporate Initiative for Communities"
+        ],
+        "correctAnswer": "Community Interest Company",
+        "reference": "The full legal name for this type of social enterprise in the UK."
+    },
+    {
+        "id": 12,
+        "question": "Which of these is NOT a required feature of a CIC?",
+        "options": [
+            "Asset Lock",
+            "Community Interest Test",
+            "Registration with the Charity Commission",
+            "An annual CIC Report"
+        ],
+        "correctAnswer": "Registration with the Charity Commission",
+        "reference": "CICs are regulated by the CIC Regulator, not the Charity Commission. They are mutually exclusive legal forms."
+    },
+    {
+        "id": 13,
+        "question": "A CIC limited by guarantee is most suitable for which type of organisation?",
+        "options": [
+            "A business aiming to attract significant private investment.",
+            "A non-profit organisation that will rely on grants and donations.",
+            "A company planning a stock market flotation.",
+            "A partnership of two self-employed individuals."
+        ],
+        "correctAnswer": "A non-profit organisation that will rely on grants and donations.",
+        "reference": "A CIC limited by guarantee has no shareholders and cannot pay dividends, making it ideal for non-profit activities where profits are reinvested back into the community mission."
+    },
+    {
+        "id": 14,
+        "question": "What is the maximum percentage of profits that a CIC limited by shares can distribute as a dividend to its shareholders?",
+        "options": [
+            "100%",
+            "50%",
+            "35%",
+            "10%"
+        ],
+        "correctAnswer": "35%",
+        "reference": "The dividend cap for a CIC limited by shares is set at 35% of the company's distributable profits. This ensures the majority is retained for community benefit."
+    },
+    {
+        "id": 15,
+        "question": "What must be included in a CIC's name?",
+        "options": [
+            "The word 'Charity'",
+            "The postcode of its registered office",
+            "The legal ending 'C.I.C.' or 'Community Interest Company'",
+            "The director's name"
+        ],
+        "correctAnswer": "The legal ending 'C.I.C.' or 'Community Interest Company'",
+        "reference": "This is a legal requirement to ensure the company's status as a CIC is clear to the public. Source: Companies House."
+    },
+    {
+        "id": 16,
+        "question": "Can a CIC convert to a standard limited company?",
+        "options": [
+            "Yes, at any time by a simple board resolution.",
+            "No, it is impossible to convert a CIC back to a standard company.",
+            "Yes, but only with the approval of the CIC Regulator and by demonstrating there is no longer a community benefit.",
+            "Only if it has been operating for more than 10 years."
+        ],
+        "correctAnswer": "Yes, but only with the approval of the CIC Regulator and by demonstrating there is no longer a community benefit.",
+        "reference": "Conversion is possible but is a regulated process to protect the asset lock and ensure community assets are not privatised. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 17,
+        "question": "What is the role of a 'member' in a CIC limited by guarantee?",
+        "options": [
+            "They are the same as shareholders and receive dividends.",
+            "They are the primary customers of the CIC.",
+            "They have a role similar to shareholders in a commercial company, with voting rights, but they do not own the company.",
+            "They are simply people on a mailing list."
+        ],
+        "correctAnswer": "They have a role similar to shareholders in a commercial company, with voting rights, but they do not own the company.",
+        "reference": "Members of a CIC limited by guarantee have ultimate control over the company (e.g., appointing directors) but do not have a financial stake."
+    },
+    {
+        "id": 18,
+        "question": "Which government body handles the initial incorporation of a CIC company before the application is passed to the CIC Regulator?",
+        "options": [
+            "The Bank of England",
+            "Companies House",
+            "The Cabinet Office",
+            "The Local Council"
+        ],
+        "correctAnswer": "Companies House",
+        "reference": "All limited companies in the UK, including CICs, are first registered with Companies House. The CIC application is then forwarded to the Regulator for approval. Source: GOV.UK."
+    },
+    {
+        "id": 19,
+        "question": "What is a 'Community Interest Statement'?",
+        "options": [
+            "A marketing slogan.",
+            "The section of the annual report detailing profits.",
+            "A part of the initial application (Form IN01) that describes the community the CIC will serve and its activities.",
+            "A press release."
+        ],
+        "correctAnswer": "A part of the initial application (Form IN01) that describes the community the CIC will serve and its activities.",
+        "reference": "This statement is crucial for passing the Community Interest Test. It must clearly define the community benefit the CIC intends to provide."
+    },
+    {
+        "id": 20,
+        "question": "Can a CIC pay interest on a loan at a capped rate?",
+        "options": [
+            "No, CICs cannot take out loans.",
+            "Yes, and the interest rate is unlimited.",
+            "Yes, a CIC can pay interest on loans, and the rate may be capped by the Regulator in certain circumstances.",
+            "Only from a government-owned bank."
+        ],
+        "correctAnswer": "Yes, a CIC can pay interest on loans, and the rate may be capped by the Regulator in certain circumstances.",
+        "reference": "CICs can raise finance through loans. The performance-related interest rate cap is designed to prevent excessive returns to lenders, ensuring profits are used for community benefit."
+    },
+    {
+        "id": 21,
+        "question": "What is the minimum number of directors required for a CIC?",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Five"
+        ],
+        "correctAnswer": "One",
+        "reference": "Like any other private limited company in the UK, a CIC must have at least one director, who must be a natural person. Source: Companies Act 2006."
+    },
+    {
+        "id": 22,
+        "question": "Is a CIC exempt from paying Corporation Tax?",
+        "options": [
+            "Yes, all CICs are fully exempt.",
+            "No, a CIC is liable for Corporation Tax on its profits, just like any other limited company.",
+            "Only if its profits are below £10,000.",
+            "Only if it has no paid directors."
+        ],
+        "correctAnswer": "No, a CIC is liable for Corporation Tax on its profits, just like any other limited company.",
+        "reference": "Being a social enterprise does not automatically grant tax exemption. CICs are taxed on their profits in the same way as commercial companies. Source: HMRC."
+    },
+    {
+        "id": 23,
+        "question": "The annual CIC Report (Form CIC34) must detail how the CIC has involved its...",
+        "options": [
+            "Lawyers",
+            "Accountants",
+            "Stakeholders",
+            "Competitors"
+        ],
+        "correctAnswer": "Stakeholders",
+        "reference": "The CIC report requires directors to explain how they have engaged with stakeholders (e.g., the community, members) to ensure they are fulfilling their community benefit purpose. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 24,
+        "question": "If a CIC limited by shares pays a dividend, what is the 'dividend cap' based on?",
+        "options": [
+            "The company's total turnover.",
+            "The value of the company's assets.",
+            "The number of employees.",
+            "The value of the paid-up shares."
+        ],
+        "correctAnswer": "The value of the paid-up shares.",
+        "reference": "The dividend cap is calculated as a percentage of the value of the shares, not the company's overall profit. The maximum is 20% of the paid-up value of a share."
+    },
+    {
+        "id": 25,
+        "question": "Which of the following would be a valid 'community of interest' for a CIC?",
+        "options": [
+            "The shareholders of a specific FTSE 100 company.",
+            "The residents of a particular town or geographical area.",
+            "A closed group of family members.",
+            "The board of directors of the CIC itself."
+        ],
+        "correctAnswer": "The residents of a particular town or geographical area.",
+        "reference": "A community can be defined by geography or by a shared characteristic or need (e.g., people with a certain disability). It cannot be a closed, private group. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 26,
+        "question": "Can a CIC own property?",
+        "options": [
+            "No, all property must be personally owned by the directors.",
+            "Yes, as a legally incorporated company, a CIC can own property and other assets in its own name.",
+            "Only if the property is leased from the local council.",
+            "Only if it is a CIC limited by shares."
+        ],
+        "correctAnswer": "Yes, as a legally incorporated company, a CIC can own property and other assets in its own name.",
+        "reference": "A CIC has its own legal personality, separate from its directors and members, and can therefore own assets, enter into contracts, and sue or be sued."
+    },
+    {
+        "id": 27,
+        "question": "What is the main advantage of being a CIC over a standard limited company for a social enterprise?",
+        "options": [
+            "Guaranteed government funding.",
+            "Total exemption from all taxes.",
+            "The legal protection of the asset lock and a clear brand identity as a social enterprise.",
+            "The ability to pay unlimited dividends to shareholders."
+        ],
+        "correctAnswer": "The legal protection of the asset lock and a clear brand identity as a social enterprise.",
+        "reference": "The CIC brand provides confidence to stakeholders, funders, and the public that the organisation is genuinely committed to community benefit and that its assets are protected."
+    },
+    {
+        "id": 28,
+        "question": "What happens if a CIC fails to submit its annual CIC Report?",
+        "options": [
+            "Nothing, it is an optional report.",
+            "The directors receive a formal warning but no further action is taken.",
+            "The company can be struck off the register and dissolved.",
+            "The company is automatically converted into a charity."
+        ],
+        "correctAnswer": "The company can be struck off the register and dissolved.",
+        "reference": "Failure to meet statutory filing requirements, including the CIC report, is a serious breach and can lead to the Regulator taking action to dissolve the company. Source: GOV.UK."
+    },
+    {
+        "id": 29,
+        "question": "A CIC wants to change its stated community benefit. What must it do?",
+        "options": [
+            "Simply start the new activities.",
+            "Get informal agreement from its members.",
+            "Pass a special resolution and get approval from the CIC Regulator.",
+            "Publish an advert in a local newspaper."
+        ],
+        "correctAnswer": "Pass a special resolution and get approval from the CIC Regulator.",
+        "reference": "Changes to a CIC's fundamental objects or community benefit require formal approval to ensure the organisation continues to meet the Community Interest Test."
+    },
+    {
+        "id": 30,
+        "question": "Which of these is a key difference between a CIC and a registered charity?",
+        "options": [
+            "A CIC can have social objectives, whereas a charity cannot.",
+            "A CIC is generally subject to less stringent regulation regarding political campaigning.",
+            "A charity can pay its trustees, but a CIC cannot pay its directors.",
+            "A CIC can receive Gift Aid on donations, but a charity cannot."
+        ],
+        "correctAnswer": "A CIC is generally subject to less stringent regulation regarding political campaigning.",
+        "reference": "Charities are heavily restricted in political activity. CICs have more freedom to campaign and lobby on issues relevant to their community benefit, as long as it is not for a political party."
+    },
+    {
+        "id": 31,
+        "question": "What is the role of the 'nominated asset-locked body' in a CIC's constitution?",
+        "options": [
+            "It is the bank where the CIC holds its main account.",
+            "It is the organisation that will receive the CIC's assets if it is dissolved.",
+            "It is the primary customer of the CIC.",
+            "It is an organisation that audits the CIC's assets each year."
+        ],
+        "correctAnswer": "It is the organisation that will receive the CIC's assets if it is dissolved.",
+        "reference": "The articles of association must specify another asset-locked body (like a charity or another CIC) to which any residual assets will be transferred upon winding up."
+    },
+    {
+        "id": 32,
+        "question": "Can a CIC be a subsidiary of another company?",
+        "options": [
+            "No, a CIC must always be a standalone entity.",
+            "Yes, but only if the parent company is also a CIC.",
+            "Yes, a CIC can be a subsidiary of another company, including a charity or a commercial company.",
+            "Only if it is based in London."
+        ],
+        "correctAnswer": "Yes, a CIC can be a subsidiary of another company, including a charity or a commercial company.",
+        "reference": "However, the CIC must still meet the community interest test and have its own asset lock, independent of the parent company. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 33,
+        "question": "What information is NOT required in the annual CIC Report (Form CIC34)?",
+        "options": [
+            "Details of the remuneration paid to directors.",
+            "A description of how the company has benefited the community.",
+            "The home addresses of all the company's employees.",
+            "Details of any assets transferred for less than full market value."
+        ],
+        "correctAnswer": "The home addresses of all the company's employees.",
+        "reference": "The CIC report focuses on transparency regarding community benefit, director pay, and asset transfers, not the private data of employees."
+    },
+    {
+        "id": 34,
+        "question": "A CIC limited by guarantee wants to pay its directors. Is this allowed?",
+        "options": [
+            "No, directors of a CIC limited by guarantee can never be paid.",
+            "Yes, this is allowed, provided the payment is reasonable and for services rendered to the company.",
+            "Only if the payment is approved by the Charity Commission.",
+            "Only if the company has made a profit of over £100,000."
+        ],
+        "correctAnswer": "Yes, this is allowed, provided the payment is reasonable and for services rendered to the company.",
+        "reference": "The ability to pay directors is a key feature of CICs, regardless of whether they are limited by shares or by guarantee. The payment must be reasonable and justifiable."
+    },
+    {
+        "id": 35,
+        "question": "What is the 'Regulator's consent' often required for?",
+        "options": [
+            "Hiring a new employee.",
+            "Opening a new bank account.",
+            "Making significant changes to the CIC's articles of association.",
+            "Launching a new social media page."
+        ],
+        "correctAnswer": "Making significant changes to the CIC's articles of association.",
+        "reference": "The CIC Regulator must approve any changes to the company's constitution, such as altering its objects or community interest statement, to ensure it remains compliant."
+    },
+    {
+        "id": 36,
+        "question": "Which of these activities would likely satisfy the 'community interest test'?",
+        "options": [
+            "Running a private investment club for high-net-worth individuals.",
+            "Providing free martial arts classes to disadvantaged youth in a specific town.",
+            "Operating a luxury car rental service for tourists.",
+            "A political party campaigning for an election."
+        ],
+        "correctAnswer": "Providing free martial arts classes to disadvantaged youth in a specific town.",
+        "reference": "This activity clearly defines a specific community (disadvantaged youth in a town) and a clear benefit (physical activity, discipline, social inclusion)."
+    },
+    {
+        "id": 37,
+        "question": "True or False: A CIC must have at least two members.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": "False",
+        "reference": "A CIC, like other private limited companies, can be formed with just one member. Source: Companies Act 2006."
+    },
+    {
+        "id": 38,
+        "question": "What is the main purpose of the 'dividend cap' on a CIC limited by shares?",
+        "options": [
+            "To discourage investment in the company.",
+            "To ensure the majority of profits are reinvested for community benefit.",
+            "To simplify the company's tax calculations.",
+            "To increase the salaries of the directors."
+        ],
+        "correctAnswer": "To ensure the majority of profits are reinvested for community benefit.",
+        "reference": "The cap prevents the CIC from being used primarily as a vehicle for personal profit, reinforcing its social mission."
+    },
+    {
+        "id": 39,
+        "question": "If a CIC transfers an asset to another company for less than its market value, what must it do?",
+        "options": [
+            "Nothing, this is allowed.",
+            "Report the transfer in its annual CIC report, explaining how it furthers its community benefit.",
+            "Seek permission from all its customers.",
+            "Pay a fine to HMRC."
+        ],
+        "correctAnswer": "Report the transfer in its annual CIC report, explaining how it furthers its community benefit.",
+        "reference": "Transparency is key. Such a transfer is allowed if it's for the benefit of the community (e.g., donating equipment to another CIC), but it must be declared. Source: CIC Regulator Guidance."
+    },
+    {
+        "id": 40,
+        "question": "Which of these is NOT a power of the CIC Regulator?",
+        "options": [
+            "To investigate the affairs of a CIC.",
+            "To appoint or remove directors.",
+            "To set the level of Corporation Tax for a CIC.",
+            "To petition the court to wind up a CIC."
+        ],
+        "correctAnswer": "To set the level of Corporation Tax for a CIC.",
+        "reference": "Taxation is handled by HM Revenue & Customs (HMRC). The CIC Regulator's powers are focused on governance and ensuring the community interest is upheld."
+    }
+]

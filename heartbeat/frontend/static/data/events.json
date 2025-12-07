@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "title": "Community Safety & Awareness Workshop",
+        "date": "2026-08-30",
+        "organizer": "Junior Anderson BEM",
+        "address": {
+            "street": "123 Chikara Way",
+            "city": "Northampton",
+            "postcode": "NN1 1AA"
+        },
+        "lat": 52.243951,
+        "lng": -0.898395,
+        "description": "An interactive workshop in collaboration with local police, focusing on building trust, de-escalation techniques, and understanding personal safety. Open to all community members. This session provides a vital opportunity for open dialogue and practical advice in a supportive environment.",
+        "images": [
+            "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070",
+            "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070",
+            "https://images.unsplash.com/photo-1556761175-b413da4b248a?q=80&w=2070"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Youth Mentorship Program Open Day",
+        "date": "2026-09-15",
+        "organizer": "Heatbeat A CIC Team",
+        "address": {
+            "street": "456 Community Drive",
+            "city": "Northampton",
+            "postcode": "NN2 2BB"
+        },
+        "lat": 52.251000,
+        "lng": -0.902000,
+        "description": "An open day for young people and potential mentors to learn about our new mentorship program. A great opportunity to connect, ask questions, and sign up for a program designed to build confidence and create future leaders.",
+        "images": [
+            "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2232",
+            "https://images.unsplash.com/photo-1573496773905-f5b17e76b254?q=80&w=2069"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "\"Discipline & Dialogue\" Leadership Seminar",
+        "date": "2026-10-05",
+        "organizer": "Junior Anderson BEM",
+        "address": {
+            "street": "University Drive",
+            "city": "Northampton",
+            "postcode": "NN1 5PH"
+        },
+        "lat": 52.2349,
+        "lng": -0.8811,
+        "description": "A seminar led by Junior Anderson BEM on the core principles of martial arts discipline and how they can be applied to de-escalate conflict and improve communication in leadership roles. Suitable for professionals and community leaders.",
+        "images": [
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Annual Community Fundraising Gala",
+        "date": "2026-11-20",
+        "organizer": "Heatbeat A CIC Events Team",
+        "address": {
+            "street": "St Giles' Square",
+            "city": "Northampton",
+            "postcode": "NN1 1DE"
+        },
+        "lat": 52.2377,
+        "lng": -0.8955,
+        "description": "Join us for our annual fundraising gala. An evening of celebration, networking, and supporting the future of our community's youth. All proceeds fund our 2027 programs. Black-tie optional.",
+        "images": [
+            "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070",
+            "https://images.unsplash.com/photo-1519167758481-83f550bb49b6?q=80&w=2070",
+            "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070",
+            "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2070"
+        ]
+    }
+]

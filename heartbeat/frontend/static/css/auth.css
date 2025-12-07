@@ -1,0 +1,60 @@
+.auth-container {
+    max-width: 450px;
+    margin: 2rem auto;
+}
+
+.auth-form .form-group {
+    text-align: left;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.auth-links a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.auth-links a:hover {
+    color: var(--accent-color);
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    padding-right: 3rem; /* Make space for the icon */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    transition: color 0.2s;
+}
+
+.toggle-password:hover {
+    color: var(--primary-text-color);
+}
+
+/* Dashboard Auth Buttons */
+.dashboard-auth-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row; /* Ensure buttons are on the same line */
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.dashboard-auth-buttons .header-cta-button {
+    width: auto; /* Override any full-width styles */
+}

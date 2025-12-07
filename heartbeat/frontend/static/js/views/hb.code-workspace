@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "hb",
+			"path": "../../../../../hb"
+		},
+		{
+			"name": "heartbeat",
+			"path": "../../../.."
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,59 @@
+/* --- Horizontal Carousel Container --- */
+.carousel-container {
+    position: relative;
+}
+
+.carousel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; /* Overrides default card header margin */
+}
+
+.carousel-header .content-subheader {
+    margin: 0; /* Remove default margins from subheader */
+    border: none;
+    padding: 0;
+}
+
+.carousel-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.carousel-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
+    color: var(--primary-text-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem; /* Add padding to not cut off box-shadow */
+    margin-bottom: -1rem; /* Counteract the padding */
+    scrollbar-gutter: stable;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 280px; /* Set a fixed width for carousel items */
+    margin-right: 1.5rem;
+}
+
+.carousel-item:last-child {
+    margin-right: 0;
+}

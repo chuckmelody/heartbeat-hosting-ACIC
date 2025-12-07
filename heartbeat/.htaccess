@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+      Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+</IfModule>
+
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://smtpjs.com 'sha256-5rOa/2YvV5zQG3+2zT4gC5f6hJ7kL8nO9pX1wR2qZ3Y='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src 'self' https://*.google.com;"
+    
+    Options -Indexes
+    
+    Header unset Content-Security-Policy
+    
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"

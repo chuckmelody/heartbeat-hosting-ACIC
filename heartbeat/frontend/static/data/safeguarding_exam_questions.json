@@ -1,0 +1,480 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary definition of 'safeguarding' in the UK?",
+        "options": [
+            "Only protecting children from physical harm.",
+            "Protecting people's health, wellbeing and human rights, and enabling them to live free from harm, abuse and neglect.",
+            "Providing financial support to vulnerable individuals.",
+            "Ensuring all staff have completed a first aid course."
+        ],
+        "correctAnswer": "Protecting people's health, wellbeing and human rights, and enabling them to live free from harm, abuse and neglect.",
+        "reference": "This is the widely accepted definition used by the Care Quality Commission (CQC) and in legislation like the Care Act 2014. It covers both children and adults."
+    },
+    {
+        "id": 2,
+        "question": "What is the 'paramountcy principle' in child protection?",
+        "options": [
+            "The parents' wishes must always come first.",
+            "The welfare of the child is the paramount consideration.",
+            "The organisation's reputation is the most important factor.",
+            "Financial costs should be the main consideration."
+        ],
+        "correctAnswer": "The welfare of the child is the paramount consideration.",
+        "reference": "This principle is enshrined in the Children Act 1989 and means that in any decision concerning a child's upbringing, their welfare must be the court's and organisation's primary focus."
+    },
+    {
+        "id": 3,
+        "question": "Who is considered a 'child' under UK safeguarding legislation?",
+        "options": [
+            "Anyone under the age of 16.",
+            "Anyone who has not yet reached their 18th birthday.",
+            "Anyone still in full-time education.",
+            "Anyone who is financially dependent on their parents."
+        ],
+        "correctAnswer": "Anyone who has not yet reached their 18th birthday.",
+        "reference": "The Children Act 1989 and subsequent legislation define a child as a person under the age of 18."
+    },
+    {
+        "id": 4,
+        "question": "What is a Designated Safeguarding Lead (DSL)?",
+        "options": [
+            "A volunteer who helps with administrative tasks.",
+            "The most senior person in the organisation, such as the CEO.",
+            "A specific, trained individual who is the first point of contact for all safeguarding and child protection concerns.",
+            "An external consultant hired to audit safeguarding policies."
+        ],
+        "correctAnswer": "A specific, trained individual who is the first point of contact for all safeguarding and child protection concerns.",
+        "reference": "The DSL takes lead responsibility for safeguarding and child protection. This role is a statutory requirement in schools under 'Keeping Children Safe in Education' (KCSIE)."
+    },
+    {
+        "id": 5,
+        "question": "If you have a safeguarding concern about a child, what is the first thing you should do?",
+        "options": [
+            "Wait to see if it happens again to be sure.",
+            "Investigate the matter yourself by talking to the child's friends.",
+            "Report your concern immediately to your organisation's Designated Safeguarding Lead (DSL).",
+            "Promise the child you will keep it a secret."
+        ],
+        "correctAnswer": "Report your concern immediately to your organisation's Designated Safeguarding Lead (DSL).",
+        "reference": "All staff and volunteers have a duty to report concerns without delay. You should not investigate yourself or promise confidentiality. Source: KCSIE guidance."
+    },
+    {
+        "id": 6,
+        "question": "What does DBS stand for in the context of recruitment?",
+        "options": [
+            "Direct Banking System",
+            "Disclosure and Barring Service",
+            "Department of Business Standards",
+            "Data and Biometric Security"
+        ],
+        "correctAnswer": "Disclosure and Barring Service",
+        "reference": "The DBS helps employers make safer recruitment decisions by processing and issuing criminal record checks for eligible roles."
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is NOT one of the four main categories of abuse?",
+        "options": [
+            "Physical Abuse",
+            "Emotional Abuse",
+            "Financial Abuse",
+            "Educational Abuse"
+        ],
+        "correctAnswer": "Educational Abuse",
+        "reference": "The four main categories are Physical, Emotional, Sexual, and Neglect. Financial abuse is also a key category, particularly for adults at risk. Educational neglect is a form of Neglect."
+    },
+    {
+        "id": 8,
+        "question": "What is the role of the Local Authority Designated Officer (LADO)?",
+        "options": [
+            "To manage the organisation's finances.",
+            "To provide IT support for safeguarding software.",
+            "To manage and oversee allegations made against staff or volunteers who work with children.",
+            "To organise community fundraising events."
+        ],
+        "correctAnswer": "To manage and oversee allegations made against staff or volunteers who work with children.",
+        "reference": "The LADO is responsible for coordinating the response to concerns about professionals or volunteers. Source: 'Working Together to Safeguard Children' guidance."
+    },
+    {
+        "id": 9,
+        "question": "What does the term 'adult at risk' refer to?",
+        "options": [
+            "Any person over the age of 65.",
+            "An adult who has needs for care and support and is unable to protect themselves from abuse or neglect.",
+            "Any adult who lives alone.",
+            "An adult who has recently been in hospital."
+        ],
+        "correctAnswer": "An adult who has needs for care and support and is unable to protect themselves from abuse or neglect.",
+        "reference": "This is the definition provided in the Care Act 2014. It focuses on the person's circumstances and inability to protect themselves, not just their age or a specific condition."
+    },
+    {
+        "id": 10,
+        "question": "If you believe a child is in immediate danger of significant harm, what should you do?",
+        "options": [
+            "Send an email to the DSL and wait for a response.",
+            "Contact the police on 999 immediately.",
+            "Try to contact the child's parents first.",
+            "Fill out an internal concern form and submit it the next day."
+        ],
+        "correctAnswer": "Contact the police on 999 immediately.",
+        "reference": "In cases of immediate risk of significant harm, the emergency services should be contacted without delay. You should then inform your DSL as soon as possible."
+    },
+    {
+        "id": 11,
+        "question": "What is the key statutory guidance for schools and colleges in England on safeguarding?",
+        "options": [
+            "The Care Act 2014",
+            "Working Together to Safeguard Children",
+            "Keeping Children Safe in Education (KCSIE)",
+            "The Equality Act 2010"
+        ],
+        "correctAnswer": "Keeping Children Safe in Education (KCSIE)",
+        "reference": "KCSIE provides the legal duties that schools and colleges must follow to safeguard and promote the welfare of children and young people under the age of 18."
+    },
+    {
+        "id": 12,
+        "question": "What is meant by 'professional boundaries' in a safeguarding context?",
+        "options": [
+            "Not speaking to service users outside of work hours.",
+            "The limits on relationships between staff/volunteers and service users, ensuring interactions are safe, appropriate, and professional.",
+            "The physical line in an office that service users cannot cross.",
+            "Only communicating via official email."
+        ],
+        "correctAnswer": "The limits on relationships between staff/volunteers and service users, ensuring interactions are safe, appropriate, and professional.",
+        "reference": "Maintaining professional boundaries is crucial to prevent allegations and to ensure relationships are based on trust and respect, not friendship or personal gain."
+    },
+    {
+        "id": 13,
+        "question": "Which of these is a potential sign of neglect?",
+        "options": [
+            "A child who is very talkative and outgoing.",
+            "A child who is always clean and well-dressed.",
+            "A child who is persistently hungry, dirty, or inadequately dressed for the weather.",
+            "A child who achieves high grades in school."
+        ],
+        "correctAnswer": "A child who is persistently hungry, dirty, or inadequately dressed for the weather.",
+        "reference": "Neglect is the persistent failure to meet a child's basic physical and/or psychological needs, likely to result in the serious impairment of the child's health or development. Source: NSPCC."
+    },
+    {
+        "id": 14,
+        "question": "What is the 'Prevent Duty'?",
+        "options": [
+            "A duty to prevent accidents in the workplace.",
+            "A duty on specified authorities to have 'due regard to the need to prevent people from being drawn into terrorism'.",
+            "A duty to prevent the spread of infectious diseases.",
+            "A duty to prevent financial fraud."
+        ],
+        "correctAnswer": "A duty on specified authorities to have 'due regard to the need to prevent people from being drawn into terrorism'.",
+        "reference": "The Prevent Duty is part of the UK's counter-terrorism strategy and applies to organisations like schools, local authorities, and the police. It is a safeguarding issue."
+    },
+    {
+        "id": 15,
+        "question": "What is a key principle of 'safer recruitment'?",
+        "options": [
+            "Hiring the first person who applies for the job.",
+            "Ensuring the recruitment process includes checks and balances to deter or reject unsuitable candidates.",
+            "Only hiring people who live within a 5-mile radius.",
+            "Conducting interviews over the phone to save time."
+        ],
+        "correctAnswer": "Ensuring the recruitment process includes checks and balances to deter or reject unsuitable candidates.",
+        "reference": "Safer recruitment includes verifying identity, obtaining DBS checks, checking references, and exploring any gaps in employment history."
+    },
+    {
+        "id": 16,
+        "question": "What does MASH stand for in a safeguarding context?",
+        "options": [
+            "Medical and Safety Helpline",
+            "Multi-Agency Safeguarding Hub",
+            "Managing All Safeguarding Holistically",
+            "Mobile Action and Support Hotline"
+        ],
+        "correctAnswer": "Multi-Agency Safeguarding Hub",
+        "reference": "A MASH is a multi-agency team, typically made up of police, social care, and health professionals, who manage and assess safeguarding referrals."
+    },
+    {
+        "id": 17,
+        "question": "When recording a safeguarding concern, what should you do?",
+        "options": [
+            "Write down your personal opinions and assumptions about the situation.",
+            "Record only factual information: what you saw, what you heard, when, and where. Use the person's own words where possible.",
+            "Wait a few days to write it down so you can remember the important parts.",
+            "Discuss the details with colleagues in the staff room to get their opinions."
+        ],
+        "correctAnswer": "Record only factual information: what you saw, what you heard, when, and where. Use the person's own words where possible.",
+        "reference": "Records must be objective, factual, and written as soon as possible after the event. They should be signed, dated, and kept securely."
+    },
+    {
+        "id": 18,
+        "question": "What is 'online safety' or 'e-safety' concerned with?",
+        "options": [
+            "Only protecting computers from viruses.",
+            "Safeguarding children and adults in the digital world from harm, including cyberbullying, grooming, and exposure to inappropriate content.",
+            "Ensuring the office Wi-Fi is fast.",
+            "Teaching people how to use social media to become famous."
+        ],
+        "correctAnswer": "Safeguarding children and adults in the digital world from harm, including cyberbullying, grooming, and exposure to inappropriate content.",
+        "reference": "Online safety is an integral part of modern safeguarding practice, as many risks now exist online. Source: KCSIE."
+    },
+    {
+        "id": 19,
+        "question": "What is a key feature of the Care Act 2014 regarding adult safeguarding?",
+        "options": [
+            "It only applies to people in care homes.",
+            "It introduced the principle of 'Making Safeguarding Personal', ensuring the adult is involved in the process.",
+            "It made it illegal for adults over 65 to live alone.",
+            "It replaced all previous child protection laws."
+        ],
+        "correctAnswer": "It introduced the principle of 'Making Safeguarding Personal', ensuring the adult is involved in the process.",
+        "reference": "'Making Safeguarding Personal' is a person-centred approach that puts the adult and their wishes at the centre of all safeguarding enquiries."
+    },
+    {
+        "id": 20,
+        "question": "What is 'whistleblowing' in a safeguarding context?",
+        "options": [
+            "Complaining about your workload to a manager.",
+            "Reporting concerns about unsafe or illegal practices within your own organisation to an external body.",
+            "Playing a musical whistle during work hours.",
+            "Sharing confidential information with the media."
+        ],
+        "correctAnswer": "Reporting concerns about unsafe or illegal practices within your own organisation to an external body.",
+        "reference": "Organisations must have a whistleblowing policy to allow staff to raise concerns about poor practice or cover-ups without fear of reprisal. Source: GOV.UK."
+    },
+    {
+        "id": 21,
+        "question": "Which of these is a form of emotional abuse?",
+        "options": [
+            "Providing a child with regular, healthy meals.",
+            "Persistently criticising, humiliating, or ignoring a person, causing significant harm to their emotional development.",
+            "Giving a child a hug when they are upset.",
+            "Setting clear and consistent boundaries for behaviour."
+        ],
+        "correctAnswer": "Persistently criticising, humiliating, or ignoring a person, causing significant harm to their emotional development.",
+        "reference": "Emotional abuse can be as damaging as physical abuse and includes constant criticism, threats, and rejection. Source: NSPCC."
+    },
+    {
+        "id": 22,
+        "question": "What does 'consent' mean in safeguarding?",
+        "options": [
+            "Assuming someone agrees unless they say no.",
+            "A person giving their voluntary and informed permission to an action, with the freedom and capacity to make that choice.",
+            "Getting a parent to sign a form for every activity.",
+            "The process of counting votes in a meeting."
+        ],
+        "correctAnswer": "A person giving their voluntary and informed permission to an action, with the freedom and capacity to make that choice.",
+        "reference": "Understanding capacity and consent is crucial, especially when working with adults at risk and young people. A person must be able to understand the decision they are making."
+    },
+    {
+        "id": 23,
+        "question": "What is 'County Lines'?",
+        "options": [
+            "A brand of countryside clothing.",
+            "A type of child exploitation where gangs use children to transport and sell drugs from cities to smaller towns.",
+            "The borders between different counties in the UK.",
+            "A railway service connecting rural areas."
+        ],
+        "correctAnswer": "A type of child exploitation where gangs use children to transport and sell drugs from cities to smaller towns.",
+        "reference": "County Lines is a major safeguarding concern involving criminal exploitation, trafficking, and often violence. Source: National Crime Agency."
+    },
+    {
+        "id": 24,
+        "question": "True or False: If a child discloses abuse to you, you should promise them you won't tell anyone.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": "False",
+        "reference": "You must never promise confidentiality. You should explain that you have to share the information with the DSL to help keep them safe, but you will only tell the people who need to know."
+    },
+    {
+        "id": 25,
+        "question": "Which of these is an example of 'safer working practice'?",
+        "options": [
+            "Taking a child to your home to finish a one-to-one session.",
+            "Communicating with a young person via your personal social media account.",
+            "Ensuring another member of staff is present or visible when working one-to-one with a child.",
+            "Accepting expensive personal gifts from an adult at risk."
+        ],
+        "correctAnswer": "Ensuring another member of staff is present or visible when working one-to-one with a child.",
+        "reference": "This maintains transparency and protects both the service user and the staff member from allegations or misunderstandings. It is a core part of maintaining professional boundaries."
+    },
+    {
+        "id": 26,
+        "question": "What is 'financial abuse' of an adult at risk?",
+        "options": [
+            "Helping them manage their weekly shopping budget.",
+            "Theft, fraud, or coercion in relation to an adult's money, property, or possessions.",
+            "Giving them a birthday gift.",
+            "Charging a fair price for a service provided."
+        ],
+        "correctAnswer": "Theft, fraud, or coercion in relation to an adult's money, property, or possessions.",
+        "reference": "This can include pressure in connection with wills, property or inheritance, or misuse of benefits. It is a key category of abuse under the Care Act 2014."
+    },
+    {
+        "id": 27,
+        "question": "How often should safeguarding training be refreshed for staff and volunteers?",
+        "options": [
+            "Only once when they are first hired.",
+            "Every 10 years.",
+            "Regularly, with formal updates at least every 2-3 years, and more frequently for DSLs.",
+            "Never, if they have a DBS check."
+        ],
+        "correctAnswer": "Regularly, with formal updates at least every 2-3 years, and more frequently for DSLs.",
+        "reference": "Statutory guidance (like KCSIE) mandates regular training to keep knowledge of legislation, policy, and procedures up to date. DSLs require more frequent, in-depth training."
+    },
+    {
+        "id": 28,
+        "question": "What is the primary purpose of a safeguarding policy?",
+        "options": [
+            "To be a document that just sits on a shelf.",
+            "To protect the organisation from legal action.",
+            "To provide a clear framework for all staff and volunteers on how to keep people safe and what to do if they have a concern.",
+            "To list the names of all the organisation's service users."
+        ],
+        "correctAnswer": "To provide a clear framework for all staff and volunteers on how to keep people safe and what to do if they have a concern.",
+        "reference": "A safeguarding policy is a live, practical document that underpins an organisation's entire approach to keeping people safe."
+    },
+    {
+        "id": 29,
+        "question": "What does the term 'contextual safeguarding' mean?",
+        "options": [
+            "Only safeguarding people within the context of their own home.",
+            "An approach that recognises the risks to young people outside their family, such as in their school, neighbourhood, or online.",
+            "Reading safeguarding policies in the context of other policies.",
+            "Only safeguarding people during school hours."
+        ],
+        "correctAnswer": "An approach that recognises the risks to young people outside their family, such as in their school, neighbourhood, or online.",
+        "reference": "Contextual safeguarding considers the wider environmental factors in a young person's life, such as peer groups or local crime, when assessing risk."
+    },
+    {
+        "id": 30,
+        "question": "If a staff member is accused of harming a child, who must be informed?",
+        "options": [
+            "Only the staff member's line manager.",
+            "The Local Authority Designated Officer (LADO).",
+            "The organisation's marketing department.",
+            "No one, to avoid causing trouble."
+        ],
+        "correctAnswer": "The Local Authority Designated Officer (LADO).",
+        "reference": "All allegations against people who work with children must be reported to the LADO, who will coordinate the investigation. Source: 'Working Together to Safeguard Children'."
+    },
+    {
+        "id": 31,
+        "question": "What is 'modern slavery'?",
+        "options": [
+            "A historical topic studied in schools.",
+            "Severe exploitation of other people for personal or commercial gain, including human trafficking and forced labour.",
+            "Having a very demanding job.",
+            "A type of online computer game."
+        ],
+        "correctAnswer": "Severe exploitation of other people for personal or commercial gain, including human trafficking and forced labour.",
+        "reference": "Modern slavery is a serious crime and a significant safeguarding issue. Victims can be of any age, gender or nationality. Source: Modern Slavery Act 2015."
+    },
+    {
+        "id": 32,
+        "question": "What is the 'Gillick competence' principle related to?",
+        "options": [
+            "A child's ability to play a specific sport.",
+            "A legal principle that a child under 16 can consent to medical treatment if they have sufficient understanding and intelligence.",
+            "The financial competence of an organisation.",
+            "A test for driving a vehicle."
+        ],
+        "correctAnswer": "A legal principle that a child under 16 can consent to medical treatment if they have sufficient understanding and intelligence.",
+        "reference": "This principle is crucial when dealing with medical consent for older children, establishing that parental consent may not be needed if the child is mature enough to decide for themselves."
+    },
+    {
+        "id": 33,
+        "question": "Which of these is a key part of an organisation's 'Code of Conduct' for staff?",
+        "options": [
+            "The company's profit targets.",
+            "Rules about professional boundaries and appropriate behaviour when working with service users.",
+            "The schedule for the annual staff party.",
+            "A list of recommended local restaurants."
+        ],
+        "correctAnswer": "Rules about professional boundaries and appropriate behaviour when working with service users.",
+        "reference": "A Code of Conduct provides clear guidance on expected behaviours to ensure all interactions are safe, professional, and in the best interests of the service user."
+    },
+    {
+        "id": 34,
+        "question": "What is 'information sharing' in the context of safeguarding?",
+        "options": [
+            "Sharing gossip about service users with colleagues.",
+            "The secure and lawful sharing of relevant information between agencies to protect a child or adult at risk.",
+            "Posting pictures of service users on your personal social media.",
+            "Never sharing any information with anyone, under any circumstances."
+        ],
+        "correctAnswer": "The secure and lawful sharing of relevant information between agencies to protect a child or adult at risk.",
+        "reference": "Effective information sharing is vital for good safeguarding. The 'Working Together' guidance provides a framework for when and how to share information legally and safely."
+    },
+    {
+        "id": 35,
+        "question": "What is a potential indicator of 'domestic abuse' in a household?",
+        "options": [
+            "A family that has occasional disagreements.",
+            "A pattern of controlling, coercive, threatening behaviour, violence or abuse between those aged 16 or over who are or have been intimate partners or family members.",
+            "A house that is sometimes untidy.",
+            "Parents who work long hours."
+        ],
+        "correctAnswer": "A pattern of controlling, coercive, threatening behaviour, violence or abuse between those aged 16 or over who are or have been intimate partners or family members.",
+        "reference": "Domestic abuse can have a profound impact on children and adults living in the household, even if they are not the direct target. It is a major safeguarding issue."
+    },
+    {
+        "id": 36,
+        "question": "Why is it important to have a clear safeguarding policy publicly available?",
+        "options": [
+            "It is not important; it should be kept secret.",
+            "To show service users, parents, and funders that the organisation takes safety seriously and to inform them how to raise a concern.",
+            "To meet the minimum word count for a website.",
+            "To discourage people from using the service."
+        ],
+        "correctAnswer": "To show service users, parents, and funders that the organisation takes safety seriously and to inform them how to raise a concern.",
+        "reference": "Transparency is a key part of creating a safe culture. A public policy builds trust and empowers people to speak up if they have concerns."
+    },
+    {
+        "id": 37,
+        "question": "What does 'child-centred approach' to safeguarding mean?",
+        "options": [
+            "Letting children do whatever they want.",
+            "Focusing all activities on a single child.",
+            "Keeping the child's perspective, wishes, and feelings at the heart of all decision-making.",
+            "Only providing services for children, not adults."
+        ],
+        "correctAnswer": "Keeping the child's perspective, wishes, and feelings at the heart of all decision-making.",
+        "reference": "This approach ensures that the process is not just done 'to' a child, but 'with' them, respecting their views and experiences. Source: 'Working Together' guidance."
+    },
+    {
+        "id": 38,
+        "question": "An 'Enhanced DBS Check' is required for roles that involve...",
+        "options": [
+            "Handling petty cash.",
+            "Working in an office environment with no contact with children.",
+            "Regulated activity with children or adults at risk, such as teaching, training, or providing care.",
+            "Driving the company vehicle."
+        ],
+        "correctAnswer": "Regulated activity with children or adults at risk, such as teaching, training, or providing care.",
+        "reference": "An Enhanced DBS check includes a check of the barred lists, which is for roles with the highest level of contact with vulnerable groups."
+    },
+    {
+        "id": 39,
+        "question": "What is 'grooming' in the context of child abuse?",
+        "options": [
+            "Helping a child with their hair and appearance.",
+            "A process where an abuser befriends and builds an emotional connection with a child to gain their trust for the purpose of abuse.",
+            "Teaching a child good manners.",
+            "Preparing a child for a school exam."
+        ],
+        "correctAnswer": "A process where an abuser befriends and builds an emotional connection with a child to gain their trust for the purpose of abuse.",
+        "reference": "Grooming can happen online or offline. The abuser manipulates the child, often making them feel special, to lower their inhibitions and facilitate abuse. Source: NSPCC."
+    },
+    {
+        "id": 40,
+        "question": "If you make a referral to children's social care, what should you do afterwards?",
+        "options": [
+            "Assume the matter is closed and do nothing further.",
+            "Follow up with social care if you do not hear back, and always record the name of the person you spoke to and what was agreed.",
+            "Post about it on social media to raise awareness.",
+            "Tell all your colleagues the details of the referral."
+        ],
+        "correctAnswer": "Follow up with social care if you do not hear back, and always record the name of the person you spoke to and what was agreed.",
+        "reference": "Your duty of care does not end with the referral. You must ensure the referral has been received and acted upon. This is a key part of professional practice. Source: KCSIE."
+    }
+]
